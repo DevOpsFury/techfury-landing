@@ -1,0 +1,252 @@
+/* DevOpsFury Theme based on Hack */
+:root {
+    --fury-primary: #FF4B2B;
+    --fury-secondary: #2B2D42;
+    --fury-accent: #7209B7;
+    --fury-light: #F8F9FA;
+    --fury-dark: #1A1B25;
+}
+
+body {
+    color: var(--fury-light);
+    background-color: var(--fury-dark);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    background-color: var(--fury-dark);
+}
+
+/* Header and Navigation */
+header {
+    background: var(--fury-dark);
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.navbar-brand {
+    color: var(--fury-primary);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: var(--fury-accent);
+}
+
+.nav-menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-link {
+    color: var(--fury-light);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--fury-primary);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+    background: var(--fury-dark);
+    color: var(--fury-light);
+    margin-bottom: 3rem;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 1rem;
+    background: linear-gradient(45deg, var(--fury-primary), var(--fury-accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Content */
+p {
+    color: var(--fury-light);
+}
+
+.content {
+    margin-bottom: 3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--fury-light);
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: var(--fury-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--fury-accent);
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: var(--fury-dark);
+    color: var(--fury-light);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, var(--fury-primary), var(--fury-accent));
+    color: var(--fury-light);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+    background: var(--fury-dark) !important;
+    color: var(--fury-light) !important;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+footer p, footer a {
+    color: var(--fury-light) !important;
+}
+
+footer a:hover {
+    color: var(--fury-primary) !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .hero h1 {
+        font-size: 2em;
+    }
+    
+    #container {
+        padding: 0 0.5rem;
+    }
+}
+
+/* Code and Pre */
+pre, code {
+    background-color: var(--fury-dark);
+    color: var(--fury-light);
+    border-radius: 4px;
+}
+
+pre {
+    padding: 1em;
+    overflow-x: auto;
+}
+
+code {
+    padding: 0.2em 0.4em;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+th, td {
+    padding: 0.5em;
+    border-bottom: 1px solid var(--fury-accent);
+}
+
+th {
+    background-color: var(--fury-dark);
+    color: var(--fury-light);
+}
+
+/* Bootstrap Overrides */
+.text-body {
+    color: var(--fury-light) !important;
+}
+
+.bg-light {
+    background-color: var(--fury-dark) !important;
+}
+
+.bg-white {
+    background-color: var(--fury-dark) !important;
+}
+
+.text-dark {
+    color: var(--fury-light) !important;
+}
+
+.card {
+    background-color: var(--fury-dark);
+    border-color: var(--fury-accent);
+}
+
+.navbar-light {
+    background-color: var(--fury-dark) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--fury-light);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--fury-primary);
+}
+
+.navbar-light .navbar-toggler {
+    color: var(--fury-light);
+    border-color: var(--fury-light);
+}
+
+/* Forms */
+input, textarea {
+    background: var(--fury-light);
+    border: 1px solid var(--fury-accent);
+    padding: 0.5em;
+    font-family: 'Share Tech Mono', monospace;
+    margin-bottom: 1em;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--fury-primary);
+}

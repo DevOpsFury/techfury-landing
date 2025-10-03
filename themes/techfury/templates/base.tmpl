@@ -1,0 +1,58 @@
+## -*- coding: utf-8 -*-
+<%namespace name="base" file="base_helper.tmpl" import="*"/>
+<%namespace name="header" file="base_header.tmpl" import="*"/>
+<%namespace name="footer" file="base_footer.tmpl" import="*"/>
+<%namespace name="annotations" file="annotation_helper.tmpl" import="*"/>
+${set_locale(lang)}
+${base.html_headstart()}
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<link href="/assets/css/hack.css" rel="stylesheet">
+<link href="/assets/css/techfury.css" rel="stylesheet">
+<%block name="extra_head">
+### Extra head block for page-specific JS/CSS
+</%block>
+${template_hooks['extra_head']()}
+</head>
+<body>
+    <a href="#content" class="sr-only sr-only-focusable">${messages("Skip to main content")}</a>
+    <!-- Header and menu -->
+    <header>
+        ${header.html_header()}
+    </header>
+    <!-- End of header and menu -->
+    
+    <!-- Hero Section -->
+    <%block name="hero">
+    <div class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <%block name="hero_content">
+                <h1>${title}</h1>
+                </%block>
+            </div>
+        </div>
+    </div>
+    </%block>
+    
+    <div class="container" id="content" role="main">
+        <!--Body content-->
+        <div class="row">
+            <div class="col-md-12">
+                ${template_hooks['page_header']()}
+                <%block name="content"></%block>
+            </div>
+        </div>
+        <!--End of body content-->
+        <footer class="footer">
+            ${footer.html_footer()}
+        </footer>
+    </div>
+    ${base.late_load_js()}
+    <!-- JavaScript code for retro effects -->
+    <script>
+        // Add any custom JavaScript here
+    </script>
+    ${body_end}
+    ${template_hooks['body_end']()}
+</body>
+</html>

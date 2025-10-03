@@ -1,0 +1,7 @@
+[Theme]
+engine = mako
+parent = bootstrap4
+author = DevOpsFury
+license = MIT
+based_on = Hack CSS framework
+based_on_url = http://hackcss.com/

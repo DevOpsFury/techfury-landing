@@ -1,0 +1,40 @@
+## -*- coding: utf-8 -*-
+<%namespace name="base" file="base_helper.tmpl" import="*"/>
+
+<%def name="html_header()">
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand site-title" href="${_link('root', None)}">
+                ${blog_title}
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="bs-navbar">
+                <ul class="navbar-nav mr-auto">
+                    %for url, text in navigation_links[lang]:
+                        <li class="nav-item"><a class="nav-link" href="${url}">${text}</a></li>
+                    %endfor
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    %if len(translations) > 1:
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ${messages("LANGUAGE")}
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                                %for langname in translations.keys():
+                                    %if langname != lang:
+                                        <a class="dropdown-item" href="${_link('root', None, langname)}">${messages('LANGUAGE', langname)}</a>
+                                    %endif
+                                %endfor
+                            </div>
+                        </li>
+                    %endif
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
+</%def>

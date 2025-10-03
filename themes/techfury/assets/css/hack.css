@@ -1,0 +1,68 @@
+/* Base Hack CSS */
+.hack, .hack blockquote, .hack code, .hack em, .hack h1, .hack h2, .hack h3, .hack h4, .hack h5, .hack h6, .hack strong {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.hack {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.hack, .hack code {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.hack h1 {
+    font-size: 2em;
+}
+
+.hack h2 {
+    font-size: 1.75em;
+}
+
+.hack h3 {
+    font-size: 1.5em;
+}
+
+.hack h4 {
+    font-size: 1.25em;
+}
+
+.hack h5 {
+    font-size: 1em;
+}
+
+.hack h6 {
+    font-size: .875em;
+}
+
+.hack code {
+    font-weight: 700;
+}
+
+.hack blockquote {
+    border-left: 3px solid #ff4b2b;
+    margin: 1em 0;
+    padding-left: 1em;
+}
+
+.hack pre {
+    overflow: auto;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.hack table {
+    border-collapse: collapse;
+    margin: 1em 0;
+    width: 100%;
+}
+
+.hack td, .hack th {
+    padding: .5em;
+    text-align: left;
+    border-bottom: 1px solid #7209B7;
+}
