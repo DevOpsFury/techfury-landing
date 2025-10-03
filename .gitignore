@@ -6,3 +6,4 @@ cache
 .venv*
 *.log
 *.swp
+.doit.db*

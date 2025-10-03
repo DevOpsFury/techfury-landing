@@ -10,10 +10,6 @@
 .. author: DevOpsFury
 -->
 
-# TechFury Conference 2026
-
-## Poważna konferencja dla pasjonatów technologii
-
 Witaj w świecie, gdzie DevOps spotyka się z synthwave, a infrastruktura jest tak gorąca jak neony lat 80!
 
 **15-16 listopada 2025, Warszawa**  
