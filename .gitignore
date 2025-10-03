@@ -1,4 +1,8 @@
+# cache
 __pycache__
+cache
+
+# venv and temp files
 .venv*
 *.log
 *.swp
