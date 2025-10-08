@@ -3,6 +3,7 @@
 <%namespace name="header" file="base_header.tmpl" import="*"/>
 <%namespace name="footer" file="base_footer.tmpl" import="*"/>
 <%namespace name="annotations" file="annotation_helper.tmpl" import="*"/>
+<%namespace name="menu" file="top_menu.tmpl" import="*"/>
 ${set_locale(lang)}
 ${base.html_headstart()}
 <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
@@ -16,41 +17,68 @@ ${template_hooks['extra_head']()}
 <body>
     <a href="#content" class="sr-only sr-only-focusable">${messages("Skip to main content")}</a>
     <!-- Header and menu -->
-    <header>
-        ${header.html_header()}
+    <header class="conference-header">
+        <div class="header-inner">
+            <a href="/" class="logo-link">
+                <img src="/assets/images/logo-small.png" alt="Conference Logo" class="logo-small" style="height:100px;width:auto;vertical-align:middle;">
+            </a>
+            ${menu.top_menu()}
+        </div>
     </header>
     <!-- End of header and menu -->
-    
-    <!-- Hero Section -->
-    <%block name="hero">
-    <div class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <%block name="hero_content">
-                <h1>${title}</h1>
-                </%block>
-            </div>
-        </div>
-    </div>
-    </%block>
-    
+
     <div class="container" id="content" role="main">
-        <!--Body content-->
         <div class="row">
             <div class="col-md-12">
                 ${template_hooks['page_header']()}
+
                 <%block name="content"></%block>
             </div>
         </div>
-        <!--End of body content-->
         <footer class="footer">
             ${footer.html_footer()}
         </footer>
     </div>
     ${base.late_load_js()}
-    <!-- JavaScript code for retro effects -->
+    <!-- Modal for ticket purchase -->
+    <div id="ticket-modal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7); z-index:9999; align-items:center; justify-content:center;">
+        <div style="background:var(--fury-dark); color:var(--fury-light); padding:2rem 2.5rem; border-radius:10px; max-width:400px; margin:auto; text-align:center; position:relative;">
+            <button id="close-modal" style="position:absolute; top:0.5em; right:0.5em; background:none; border:none; color:var(--fury-light); font-size:1.5em; cursor:pointer;">&times;</button>
+            <h3>Kup bilet</h3>
+            <p>Rejestracja online będzie dostępna wkrótce.<br>Śledź nas na social media!</p>
+        </div>
+    </div>
+    <!-- Interactivity: FAQ accordion, smooth scroll, modal -->
     <script>
-        // Add any custom JavaScript here
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            var answer = btn.nextElementSibling;
+            var isOpen = answer.style.display === 'block';
+            document.querySelectorAll('.faq-answer').forEach(function(a) { a.style.display = 'none'; });
+            if (!isOpen) answer.style.display = 'block';
+        });
+    });
+    // Modal for ticket purchase
+    document.querySelectorAll('.buy-ticket-btn').forEach(function(btn) {
+        btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('ticket-modal').style.display = 'flex';
+        });
+    });
+    document.getElementById('close-modal').onclick = function() {
+        document.getElementById('ticket-modal').style.display = 'none';
+    };
+    // Smooth scroll for nav links
+    document.querySelectorAll('.nav-link').forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            var href = link.getAttribute('href');
+            if (href.startsWith('#')) {
+                e.preventDefault();
+                document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
     </script>
     ${body_end}
     ${template_hooks['body_end']()}

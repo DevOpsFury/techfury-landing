@@ -1,0 +1,9 @@
+<%def name="top_menu()">
+    <nav class="main-nav">
+        <ul class="nav-menu" style="display: flex; align-items: center; gap: 1.5rem; list-style: none; margin: 0; padding: 0;">
+            % for url, label in navigation_links(lang):
+                <li><a class="nav-link" href="${url}">${label}</a></li>
+            % endfor
+        </ul>
+    </nav>
+</%def>

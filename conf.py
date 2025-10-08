@@ -19,7 +19,6 @@ import time
 BLOG_AUTHOR = "DevOpsFury"  # (translatable)
 
 # Theme settings
-# THEME = "techfury"
 TEMPLATE_ENGINE = "mako"
 BOOTSTRAP_THEME = "darkly"
 
@@ -32,7 +31,7 @@ GLOBAL_CONTEXT = {}
 # <link href="/assets/css/hack.css" rel="stylesheet">
 # <link href="/assets/css/techfury.css" rel="stylesheet">
 # """
-BLOG_TITLE = {"pl": "TechFury", "en": "TechFury"}  # (translatable)
+BLOG_TITLE = {"pl": "Konferencja TechFury", "en": "TechFury Conference"}
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://techfury.pl/"
@@ -40,25 +39,13 @@ SITE_URL = "https://techfury.pl/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://techfury.pl/"
 BLOG_EMAIL = "grzegorz@devopsfury.com"
-BLOG_DESCRIPTION = {"pl": "Poważna konferencja dla pasjonatów technologii", "en": "Serious conference for tech enthusiasts"}  # (translatable)
+BLOG_DESCRIPTION = {"pl": "Poważna konferencja dla pasjonatów technologii", "en": "Serious conference for tech enthusiasts"}
 
-# Nikola is multilingual!
-#
-# Currently supported languages are:
-#
-# en        English
-# af        Afrikaans
-# ar        Arabic
-# az        Azerbaijani
-# bg        Bulgarian
-# bs        Bosnian
-# ca        Catalan
-# cs        Czech [ALTERNATIVELY cz]
-# da        Danish
-# de        German
-# el        Greek [NOT gr]
-# eo        Esperanto
-# es        Spanish
+DEFAULT_LANG = "pl"
+TRANSLATIONS = {
+    "pl": "",
+    "en": "en",
+}
 # et        Estonian
 # eu        Basque
 # fa        Persian
@@ -157,7 +144,20 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 #          else they won’t be highlighted when active.
 
 NAVIGATION_LINKS = {
-    DEFAULT_LANG: (),
+    DEFAULT_LANG: (
+        ("/agenda/", "Agenda"),
+        ("/sponsors/", "Sponsorzy"),
+        ("/cfp/", "CFP"),
+        ("/contact/", "Kontakt"),
+        ("/en/", "English"),
+    ),
+    "en": (
+        ("/en/agenda/", "Agenda"),
+        ("/en/sponsors/", "Sponsors"),
+        ("/en/cfp/", "CFP"),
+        ("/en/contact/", "Contact"),
+        ("/", "Polski"),
+    ),
 }
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
@@ -185,18 +185,19 @@ THEME_COLOR = '#5670d4'
 # Config for bootblog4:
 THEME_CONFIG = {
     DEFAULT_LANG: {
-        # Show the latest featured post in a large box, with the previewimage as its background.
         'featured_large': False,
-        # Show the first (remaining) two featured posts in small boxes.
         'featured_small': False,
-        # Show featured posts on mobile.
         'featured_on_mobile': True,
-        # Show image in `featured_large` on mobile.
-        # `featured_small` displays them only on desktop.
         'featured_large_image_on_mobile': True,
-        # Strip HTML from featured post text.
         'featured_strip_html': False,
-        # Contents of the sidebar, If empty, the sidebar is not displayed.
+        'sidebar': ''
+    },
+    "en": {
+        'featured_large': False,
+        'featured_small': False,
+        'featured_on_mobile': True,
+        'featured_large_image_on_mobile': True,
+        'featured_strip_html': False,
         'sidebar': ''
     }
 }
@@ -247,7 +248,7 @@ THEME_CONFIG = {
 #         ("pages/*.md", {"en": "pages", "de": "seiten"}, "page.tmpl"),
 #     )
 
-POSTS = ()
+POSTS = (("posts/*.md", "", "post.tmpl"),)
 PAGES = (
     ("pages/*.rst", "", "page.tmpl"),
     ("pages/*.md", "", "page.tmpl"),
@@ -591,25 +592,26 @@ HIDDEN_AUTHORS = ['Guest']
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
 # (translatable)
-INDEX_PATH = "blog"
+INDEX_PATH = ""
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
 FRONT_INDEX_HEADER = {
-    DEFAULT_LANG: ''
+    "pl": "",
+    "en": ""
 }
 
 # Create per-month archives instead of per-year
-# CREATE_MONTHLY_ARCHIVE = False
+CREATE_MONTHLY_ARCHIVE = False
 # Create one large archive instead of per-year
-# CREATE_SINGLE_ARCHIVE = False
+CREATE_SINGLE_ARCHIVE = False
 # Create year, month, and day archives each with a (long) list of posts
 # (overrides both CREATE_MONTHLY_ARCHIVE and CREATE_SINGLE_ARCHIVE)
-# CREATE_FULL_ARCHIVES = False
+CREATE_FULL_ARCHIVES = False
 # If monthly archives or full archives are created, adds also one archive per day
-# CREATE_DAILY_ARCHIVE = False
+CREATE_DAILY_ARCHIVE = False
 # Create previous, up, next navigation links for archives
-# CREATE_ARCHIVE_NAVIGATION = False
+CREATE_ARCHIVE_NAVIGATION = False
 # Final locations for the archives are:
 # output / TRANSLATION[lang] / ARCHIVE_PATH / ARCHIVE_FILENAME
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / index.html
