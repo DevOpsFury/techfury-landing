@@ -5,64 +5,59 @@
 .. tags: 
 .. category: 
 .. link: 
-.. description: Information for TechFury conference sponsors
+.. description: Information for TechFury conference speakers
 .. type: text
 -->
 
 # Call for Papers (CFP)
 
-## Share Your Knowledge at TechFury 2026
+## Share your knowledge at TechFury 2026
 
-TechFury is looking for speakers who want to share their knowledge and experience with the community. We're particularly interested in:
+TechFury is looking for speakers who want to share their knowledge and experience with the community. We are especially interested in:
 
 ### Topics of Interest
 
-- DevOps Best Practices and Tools
-- Cloud Native Technologies
+- Best practices and DevOps tools
+- Cloud Native technologies
 - Security in DevOps
 - Machine Learning Operations (MLOps)
 - Infrastructure as Code
-- Containerization and Orchestration
-- Monitoring and Observability
-- CI/CD Pipeline Design
-- Serverless Architecture
-- Cloud Cost Optimization
+- Containerization and orchestration
+- Monitoring and observability
+- Designing CI/CD pipelines
+- Serverless architecture
+- Cloud cost optimization
 - Site Reliability Engineering (SRE)
 - DevSecOps
-- Platform Engineering
+- Platform engineering
 - Developer Experience (DX)
 
 ### Session Types
 
-1. **Conference Talks (45 minutes)**
+1. **Conference presentations (45 minutes)**
    - 35 minutes presentation
-   - 10 minutes Q&A
+   - 10 minutes for Q&A
 
-2. **Workshops (3 hours)**
-   - Hands-on technical sessions
-   - Limited to 30 participants
-   - Participants will need their own laptops
-
-### What We're Looking For
+### What We Are Looking For
 
 - Original content and fresh perspectives
-- Real-world case studies and practical examples
-- Technical deep dives
+- Case studies and practical examples
+- Technical implementation details
 - Lessons learned from failures and successes
 - Innovative approaches to common problems
 
 ### Important Dates
 
-- CFP Opens: October 1, 2025
-- CFP Closes: January 15, 2026
-- Speaker Notification: February 1, 2026
-- Final Slides Due: May 1, 2026
+- CFP opens: October 1, 2025
+- CFP closes: April 1, 2026
+- Speaker notifications: February 1, 2026
+- Final slides due: April 15, 2026
 
 ### Speaker Benefits
 
-- Free conference pass
-- Travel assistance available for international speakers
-- Professional video recording of your talk
+- Free conference admission
+- Travel support for international speakers
+- Professional recording of your talk
 - Speaker dinner and networking events
 - Dedicated speaker support team
 

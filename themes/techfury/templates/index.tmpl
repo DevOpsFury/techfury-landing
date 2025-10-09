@@ -42,47 +42,111 @@ ${template_hooks['extra_head']()}
                                 <img src="/assets/images/logo-hero.png" alt="Conference Hero Logo" style="width:100%;height:auto;">
                             </div>
                             <div class="hero-details">
-                                <h1 class="conference-title">TechFury Conference 2025</h1>
-                                <div class="conference-dates">3-4 października 2025, Warszawa</div>
-                                <a href="#" class="btn btn-primary btn-lg" style="margin-top:1.5rem;">Kup bilet</a>
+                                <h1 class="conference-title">TechFury Conference 2026</h1>
+                                % if lang == 'en':
+                                    <div class="conference-dates">April 24, 2026, Szczecin</div>
+                                    <a href="#" class="btn btn-primary btn-lg" style="margin-top:1.5rem;">Buy ticket</a>
+                                % else:
+                                    <div class="conference-dates">24 kwietnia 2026, Szczecin</div>
+                                    <a href="#" class="btn btn-primary btn-lg" style="margin-top:1.5rem;">Kup bilet</a>
+                                % endif
                             </div>
                         </div>
                     </div>
 
                     <!-- Speakers Section -->
                     <section class="speakers-section" style="margin: 3rem 0; text-align: center;">
-                        <h2>Prelegenci</h2>
+                        % if lang == 'en':
+                            <h2>Speakers</h2>
+                        % else:
+                            <h2>Prelegenci</h2>
+                        % endif
                         <div class="speakers-list" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-top: 2rem;">
-                            % for i in range(1, 5):
                             <div class="speaker-card" style="background: var(--fury-dark); border-radius: 8px; padding: 1.5rem; width: 200px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
                                 <img src="/assets/images/avatar-placeholder.png" alt="Speaker Avatar" style="width: 96px; height: 96px; border-radius: 50%; margin-bottom: 1rem;">
-                                <div class="speaker-name" style="color: var(--fury-light); font-size: 1.2em; font-weight: bold;">Prelegent {{ i }}</div>
-                                <div class="speaker-title" style="color: var(--fury-accent); font-size: 0.95em;">Tytuł prezentacji</div>
+                                <div class="speaker-name" style="color: var(--fury-light); font-size: 1.2em; font-weight: bold;">Anna Nowak</div>
+                                % if lang == 'en':
+                                    <div class="speaker-title" style="color: var(--fury-accent); font-size: 0.95em;">DevOps in practice</div>
+                                % else:
+                                    <div class="speaker-title" style="color: var(--fury-accent); font-size: 0.95em;">DevOps w praktyce</div>
+                                % endif
                             </div>
-                            % endfor
+                            <div class="speaker-card" style="background: var(--fury-dark); border-radius: 8px; padding: 1.5rem; width: 200px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+                                <img src="/assets/images/avatar-placeholder.png" alt="Speaker Avatar" style="width: 96px; height: 96px; border-radius: 50%; margin-bottom: 1rem;">
+                                <div class="speaker-name" style="color: var(--fury-light); font-size: 1.2em; font-weight: bold;">Jan Kowalski</div>
+                                % if lang == 'en':
+                                    <div class="speaker-title" style="color: var(--fury-accent); font-size: 0.95em;">AI in the cloud</div>
+                                % else:
+                                    <div class="speaker-title" style="color: var(--fury-accent); font-size: 0.95em;">AI w chmurze</div>
+                                % endif
+                            </div>
+                            <div class="speaker-card" style="background: var(--fury-dark); border-radius: 8px; padding: 1.5rem; width: 200px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+                                <img src="/assets/images/avatar-placeholder.png" alt="Speaker Avatar" style="width: 96px; height: 96px; border-radius: 50%; margin-bottom: 1rem;">
+                                <div class="speaker-name" style="color: var(--fury-light); font-size: 1.2em; font-weight: bold;">Katarzyna Wiśniewska</div>
+                                % if lang == 'en':
+                                    <div class="speaker-title" style="color: var(--fury-accent); font-size: 0.95em;">IT Security</div>
+                                % else:
+                                    <div class="speaker-title" style="color: var(--fury-accent); font-size: 0.95em;">Bezpieczeństwo w IT</div>
+                                % endif
+                            </div>
+                            <div class="speaker-card" style="background: var(--fury-dark); border-radius: 8px; padding: 1.5rem; width: 200px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+                                <img src="/assets/images/avatar-placeholder.png" alt="Speaker Avatar" style="width: 96px; height: 96px; border-radius: 50%; margin-bottom: 1rem;">
+                                <div class="speaker-name" style="color: var(--fury-light); font-size: 1.2em; font-weight: bold;">Tomasz Zieliński</div>
+                                % if lang == 'en':
+                                    <div class="speaker-title" style="color: var(--fury-accent); font-size: 0.95em;">Cloud Native</div>
+                                % else:
+                                    <div class="speaker-title" style="color: var(--fury-accent); font-size: 0.95em;">Cloud Native</div>
+                                % endif
+                            </div>
                         </div>
                     </section>
 
                     <!-- Agenda Section -->
                     <section class="agenda-section" style="margin: 3rem 0;">
-                        <h2 style="text-align: center;">Agenda</h2>
+                        % if lang == 'en':
+                            <h2 style="text-align: center;">TechFury 2026 Agenda</h2>
+                            <h3 style="text-align: center; font-weight: normal; color: var(--fury-accent);">Day 1 - April 24, 2026</h3>
+                        % else:
+                            <h2 style="text-align: center;">Agenda TechFury 2026</h2>
+                            <h3 style="text-align: center; font-weight: normal; color: var(--fury-accent);">Dzień 1 - 24 kwietnia 2026</h3>
+                        % endif
                         <div class="agenda-table" style="max-width: 700px; margin: 2rem auto;">
                             <table style="width: 100%; background: var(--fury-dark); color: var(--fury-light); border-radius: 8px; overflow: hidden;">
                                 <thead>
                                     <tr style="background: var(--fury-accent); color: #fff;">
-                                        <th style="padding: 0.75em;">Godzina</th>
-                                        <th style="padding: 0.75em;">Wydarzenie</th>
+                                        % if lang == 'en':
+                                            <th style="padding: 0.75em;">Time</th>
+                                            <th style="padding: 0.75em;">Topic</th>
+                                            <th style="padding: 0.75em;">Speaker</th>
+                                        % else:
+                                            <th style="padding: 0.75em;">Godzina</th>
+                                            <th style="padding: 0.75em;">Temat</th>
+                                            <th style="padding: 0.75em;">Prelegent</th>
+                                        % endif
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr><td style="padding: 0.75em;">09:00</td><td style="padding: 0.75em;">Rejestracja</td></tr>
-                                    <tr><td style="padding: 0.75em;">10:00</td><td style="padding: 0.75em;">Otwarcie konferencji</td></tr>
-                                    <tr><td style="padding: 0.75em;">10:15</td><td style="padding: 0.75em;">Prelekcja 1</td></tr>
-                                    <tr><td style="padding: 0.75em;">11:00</td><td style="padding: 0.75em;">Prelekcja 2</td></tr>
-                                    <tr><td style="padding: 0.75em;">12:00</td><td style="padding: 0.75em;">Przerwa obiadowa</td></tr>
-                                    <tr><td style="padding: 0.75em;">13:00</td><td style="padding: 0.75em;">Prelekcja 3</td></tr>
-                                    <tr><td style="padding: 0.75em;">14:00</td><td style="padding: 0.75em;">Panel dyskusyjny</td></tr>
-                                    <tr><td style="padding: 0.75em;">15:00</td><td style="padding: 0.75em;">Zakończenie</td></tr>
+                                    % if lang == 'en':
+                                        <tr><td style="padding: 0.75em;">10:00 - 11:00</td><td style="padding: 0.75em;">Registration and coffee</td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">11:00 - 11:45</td><td style="padding: 0.75em;">*Keynote:* DevOps in the Age of AI</td><td style="padding: 0.75em;">TBA</td></tr>
+                                        <tr><td style="padding: 0.75em;">12:00 - 12:45</td><td style="padding: 0.75em;">Coming soon</td><td style="padding: 0.75em;">TBA</td></tr>
+                                        <tr><td style="padding: 0.75em;">13:00 - 13:45</td><td style="padding: 0.75em;">Coming soon</td><td style="padding: 0.75em;">TBA</td></tr>
+                                        <tr><td style="padding: 0.75em;">13:45 - 14:30</td><td style="padding: 0.75em;">Lunch break</td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">14:30 - 15:15</td><td style="padding: 0.75em;">Coming soon</td><td style="padding: 0.75em;">TBA</td></tr>
+                                        <tr><td style="padding: 0.75em;">15:30 - 16:15</td><td style="padding: 0.75em;">Coming soon</td><td style="padding: 0.75em;">TBA</td></tr>
+                                        <tr><td style="padding: 0.75em;">16:30 - 17:15</td><td style="padding: 0.75em;">Coming soon</td><td style="padding: 0.75em;">TBA</td></tr>
+                                        <tr><td style="padding: 0.75em;">17:15 - 18:00</td><td style="padding: 0.75em;">Flash talks and hallway discussions</td><td style="padding: 0.75em;"></td></tr>
+                                    % else:
+                                        <tr><td style="padding: 0.75em;">10:00 - 11:00</td><td style="padding: 0.75em;">Rejestracja i kawa</td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">11:00 - 11:45</td><td style="padding: 0.75em;">*Keynote:* DevOps w świecie AI</td><td style="padding: 0.75em;">TBA</td></tr>
+                                        <tr><td style="padding: 0.75em;">12:00 - 12:45</td><td style="padding: 0.75em;">Wkrótce</td><td style="padding: 0.75em;">TBA</td></tr>
+                                        <tr><td style="padding: 0.75em;">13:00 - 13:45</td><td style="padding: 0.75em;">Wkrótce</td><td style="padding: 0.75em;">TBA</td></tr>
+                                        <tr><td style="padding: 0.75em;">13:45 - 14:30</td><td style="padding: 0.75em;">Przerwa obiadowa</td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">14:30 - 15:15</td><td style="padding: 0.75em;">Wkrótce</td><td style="padding: 0.75em;">TBA</td></tr>
+                                        <tr><td style="padding: 0.75em;">15:30 - 16:15</td><td style="padding: 0.75em;">Wkrótce</td><td style="padding: 0.75em;">TBA</td></tr>
+                                        <tr><td style="padding: 0.75em;">16:30 - 17:15</td><td style="padding: 0.75em;">Wkrótce</td><td style="padding: 0.75em;">TBA</td></tr>
+                                        <tr><td style="padding: 0.75em;">17:15 - 18:00</td><td style="padding: 0.75em;">Flash talks i dyskusje w kuluarach</td><td style="padding: 0.75em;"></td></tr>
+                                    % endif
                                 </tbody>
                             </table>
                         </div>
@@ -90,7 +154,11 @@ ${template_hooks['extra_head']()}
 
                     <!-- Sponsors Section -->
                     <section class="sponsors-section" style="margin: 3rem 0; text-align: center;">
-                        <h2>Sponsorzy</h2>
+                        % if lang == 'en':
+                            <h2>Sponsors</h2>
+                        % else:
+                            <h2>Sponsorzy</h2>
+                        % endif
                         <div class="sponsors-list" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-top: 2rem;">
                             % for i in range(1, 5):
                             <div class="sponsor-card" style="background: var(--fury-dark); border-radius: 8px; padding: 1.5rem; width: 180px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center;">
@@ -105,25 +173,46 @@ ${template_hooks['extra_head']()}
                         <h2>FAQ</h2>
                         <div class="faq-list" style="max-width: 700px; margin: 2rem auto; text-align: left;">
                             <div class="faq-item" style="margin-bottom: 1.5rem;">
-                                <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Jak mogę kupić bilet?</button>
-                                <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Kliknij przycisk \"Kup bilet\" na górze strony lub w sekcji rejestracji poniżej.</div>
+                                % if lang == 'en':
+                                    <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">How can I buy a ticket?</button>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Click the "Buy ticket" button at the top of the page or in the registration section below.</div>
+                                % else:
+                                    <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Jak mogę kupić bilet?</button>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Kliknij przycisk \"Kup bilet\" na górze strony lub w sekcji rejestracji poniżej.</div>
+                                % endif
                             </div>
                             <div class="faq-item" style="margin-bottom: 1.5rem;">
-                                <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Czy wydarzenie jest stacjonarne?</button>
-                                <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Tak, konferencja odbędzie się w Warszawie, w Centrum Konferencyjnym.</div>
+                                % if lang == 'en':
+                                    <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Is the event in-person?</button>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Yes, the conference will take place in Szczecin, at the Conference Center.</div>
+                                % else:
+                                    <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Czy wydarzenie jest stacjonarne?</button>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Tak, konferencja odbędzie się w Szczecinie, w Centrum Konferencyjnym.</div>
+                                % endif
                             </div>
                             <div class="faq-item" style="margin-bottom: 1.5rem;">
-                                <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Czy będą dostępne nagrania?</button>
-                                <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Tak, nagrania prelekcji będą dostępne po wydarzeniu dla zarejestrowanych uczestników.</div>
+                                % if lang == 'en':
+                                    <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Will recordings be available?</button>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Yes, session recordings will be available after the event for registered participants.</div>
+                                % else:
+                                    <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Czy będą dostępne nagrania?</button>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Tak, nagrania prelekcji będą dostępne po wydarzeniu dla zarejestrowanych uczestników.</div>
+                                % endif
                             </div>
                         </div>
                     </section>
 
                     <!-- Registration/CTA Section -->
                     <section class="registration-section" style="margin: 3rem 0; text-align: center;">
-                        <h2>Zarejestruj się już dziś!</h2>
-                        <p style="color: var(--fury-light); font-size: 1.2em;">Nie przegap największej konferencji technologicznej tej jesieni.</p>
-                        <a href="#" class="btn btn-primary btn-lg buy-ticket-btn" style="margin-top:1.5rem;">Kup bilet</a>
+                        % if lang == 'en':
+                            <h2>Register today!</h2>
+                            <p style="color: var(--fury-light); font-size: 1.2em;">Don't miss the biggest tech conference this spring.</p>
+                            <a href="#" class="btn btn-primary btn-lg buy-ticket-btn" style="margin-top:1.5rem;">Buy ticket</a>
+                        % else:
+                            <h2>Zarejestruj się już dziś!</h2>
+                            <p style="color: var(--fury-light); font-size: 1.2em;">Nie przegap największej konferencji technologicznej tej wiosny.</p>
+                            <a href="#" class="btn btn-primary btn-lg buy-ticket-btn" style="margin-top:1.5rem;">Kup bilet</a>
+                        % endif
                     </section>
                     <!-- Landing Page Content End -->
                 % endif

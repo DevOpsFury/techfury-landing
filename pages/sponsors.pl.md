@@ -26,23 +26,21 @@ TechFury to wyjątkowa konferencja technologiczna, która gromadzi pasjonatów i
 - Logo na stronie głównej konferencji
 - Duże logo na wszystkich materiałach konferencyjnych
 - Stoisko w głównej strefie expo
-- 5 bezpłatnych wejściówek na konferencję
+- 2 bezpłatne wejściówki na konferencję
 - 30-minutowa prezentacja w głównej ścieżce
-- Pełna lista uczestników (za ich zgodą)
 - Możliwość dołączenia materiałów do pakietów konferencyjnych
 
 ### Pakiet Złoty
 - Logo na stronie konferencji
 - Średnie logo na materiałach konferencyjnych
 - Stoisko w strefie expo
-- 3 bezpłatne wejściówki
+- 1 bezpłatna wejściówka
 - 15-minutowa prezentacja
 - Możliwość dołączenia materiałów do pakietów konferencyjnych
 
 ### Pakiet Srebrny
 - Logo na stronie konferencji
 - Małe logo na materiałach konferencyjnych
-- 2 bezpłatne wejściówki
 - Możliwość dołączenia materiałów do pakietów konferencyjnych
 
 ## Kontakt
@@ -50,4 +48,4 @@ TechFury to wyjątkowa konferencja technologiczna, która gromadzi pasjonatów i
 Jeśli jesteś zainteresowany zostaniem sponsorem TechFury, skontaktuj się z nami:
 
 Email: sponsors@techfury.pl
-Tel: +48 123 456 789
+Tel: +48 

@@ -5,15 +5,15 @@
 .. tags: 
 .. category: 
 .. link: 
-.. description: Information for TechFury conference sponsors
+.. description: Contact information for TechFury conference
 .. type: text
 -->
 
-# Contact Us
+# Contact
 
-## Get in Touch
+## Get in touch with us
 
-Have questions about TechFury 2026? We're here to help!
+Do you have questions about TechFury 2026? We are here to help!
 
 <div class="row">
     <div class="col-md-6 mb-4">
@@ -25,7 +25,7 @@ Have questions about TechFury 2026? We're here to help!
                 <p>For general questions about the conference:</p>
                 <ul>
                     <li>Email: info@techfury.pl</li>
-                    <li>Phone: +48 123 456 789</li>
+                    <li>Phone: </li>
                 </ul>
             </div>
         </div>
@@ -39,7 +39,7 @@ Have questions about TechFury 2026? We're here to help!
                 <p>Questions about speaking at TechFury:</p>
                 <ul>
                     <li>Email: cfp@techfury.pl</li>
-                    <li><a href="/en/cfp/">CFP Guidelines</a></li>
+                    <li><a href="/cfp/">CFP Guidelines</a></li>
                 </ul>
             </div>
         </div>
@@ -56,7 +56,7 @@ Have questions about TechFury 2026? We're here to help!
                 <p>Interested in sponsoring TechFury?</p>
                 <ul>
                     <li>Email: sponsors@techfury.pl</li>
-                    <li><a href="/en/sponsors/">Sponsorship Packages</a></li>
+                    <li><a href="/sponsors/">Sponsorship Packages</a></li>
                 </ul>
             </div>
         </div>

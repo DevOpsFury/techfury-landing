@@ -25,7 +25,7 @@ Masz pytania dotyczące TechFury 2026? Jesteśmy do Twojej dyspozycji!
                 <p>W sprawie ogólnych pytań o konferencję:</p>
                 <ul>
                     <li>Email: info@techfury.pl</li>
-                    <li>Telefon: +48 123 456 789</li>
+                    <li>Telefon: </li>
                 </ul>
             </div>
         </div>
@@ -39,7 +39,7 @@ Masz pytania dotyczące TechFury 2026? Jesteśmy do Twojej dyspozycji!
                 <p>Pytania dotyczące wystąpień na TechFury:</p>
                 <ul>
                     <li>Email: cfp@techfury.pl</li>
-                    <li><a href="/pl/cfp/">Wytyczne CFP</a></li>
+                    <li><a href="/cfp/">Wytyczne CFP</a></li>
                 </ul>
             </div>
         </div>
@@ -56,7 +56,7 @@ Masz pytania dotyczące TechFury 2026? Jesteśmy do Twojej dyspozycji!
                 <p>Zainteresowany sponsorowaniem TechFury?</p>
                 <ul>
                     <li>Email: sponsors@techfury.pl</li>
-                    <li><a href="/pl/sponsorzy/">Pakiety Sponsorskie</a></li>
+                    <li><a href="/sponsorzy/">Pakiety Sponsorskie</a></li>
                 </ul>
             </div>
         </div>

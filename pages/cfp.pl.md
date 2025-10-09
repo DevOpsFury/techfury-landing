@@ -38,11 +38,6 @@ TechFury poszukuje prelegentów, którzy chcą podzielić się swoją wiedzą i 
    - 35 minut prezentacji
    - 10 minut na pytania i odpowiedzi
 
-2. **Warsztaty (3 godziny)**
-   - Praktyczne sesje techniczne
-   - Limit 30 uczestników
-   - Uczestnicy potrzebują własnych laptopów
-
 ### Czego Szukamy
 
 - Oryginalnych treści i świeżych perspektyw
@@ -54,9 +49,9 @@ TechFury poszukuje prelegentów, którzy chcą podzielić się swoją wiedzą i 
 ### Ważne Daty
 
 - Otwarcie CFP: 1 października 2025
-- Zamknięcie CFP: 15 stycznia 2026
+- Zamknięcie CFP: 1 kwietnia 2026
 - Powiadomienie prelegentów: 1 lutego 2026
-- Termin na finalne slajdy: 1 maja 2026
+- Termin na finalne slajdy: 15 kwietnia 2026
 
 ### Korzyści dla Prelegentów
 
@@ -73,10 +68,7 @@ Twoja propozycja powinna zawierać:
 1. Tytuł prezentacji
 2. Rodzaj sesji (prezentacja lub warsztat)
 3. Abstrakt (max 300 słów)
-4. Grupa docelowa i wymagania wstępne
 5. Krótka biografia
-6. Wcześniejsze doświadczenie jako prelegent
-7. Linki do poprzednich wystąpień (jeśli dostępne)
 
 ### Proces Wyboru
 
