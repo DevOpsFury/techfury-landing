@@ -7,3 +7,6 @@ cache
 *.log
 *.swp
 .doit.db*
+
+# os-specific
+.DS_Store

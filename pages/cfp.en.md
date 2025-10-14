@@ -50,8 +50,8 @@ TechFury is looking for speakers who want to share their knowledge and experienc
 
 - CFP opens: October 1, 2025
 - CFP closes: April 1, 2026
-- Speaker notifications: February 1, 2026
-- Final slides due: April 15, 2026
+- Speaker notifications: April 15, 2026
+- Final slides due: April 22, 2026
 
 ### Speaker Benefits
 

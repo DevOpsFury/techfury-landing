@@ -25,7 +25,7 @@ Do you have questions about TechFury 2026? We are here to help!
                 <p>For general questions about the conference:</p>
                 <ul>
                     <li>Email: info@techfury.pl</li>
-                    <li>Phone: </li>
+                    <li>Phone: (+48) 510 891 465</li>
                 </ul>
             </div>
         </div>
@@ -39,7 +39,7 @@ Do you have questions about TechFury 2026? We are here to help!
                 <p>Questions about speaking at TechFury:</p>
                 <ul>
                     <li>Email: cfp@techfury.pl</li>
-                    <li><a href="/cfp/">CFP Guidelines</a></li>
+                    <li><a href="/en/cfp/">CFP Guidelines</a></li>
                 </ul>
             </div>
         </div>

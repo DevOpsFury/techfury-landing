@@ -26,7 +26,7 @@ TechFury to wyjątkowa konferencja technologiczna, która gromadzi pasjonatów i
 - Logo na stronie głównej konferencji
 - Duże logo na wszystkich materiałach konferencyjnych
 - Stoisko w głównej strefie expo
-- 2 bezpłatne wejściówki na konferencję
+- 3 bezpłatne wejściówki na konferencję
 - 30-minutowa prezentacja w głównej ścieżce
 - Możliwość dołączenia materiałów do pakietów konferencyjnych
 
@@ -34,7 +34,7 @@ TechFury to wyjątkowa konferencja technologiczna, która gromadzi pasjonatów i
 - Logo na stronie konferencji
 - Średnie logo na materiałach konferencyjnych
 - Stoisko w strefie expo
-- 1 bezpłatna wejściówka
+- 2 bezpłatne wejściówki na konferencję
 - 15-minutowa prezentacja
 - Możliwość dołączenia materiałów do pakietów konferencyjnych
 

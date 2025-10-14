@@ -25,7 +25,7 @@ Masz pytania dotyczące TechFury 2026? Jesteśmy do Twojej dyspozycji!
                 <p>W sprawie ogólnych pytań o konferencję:</p>
                 <ul>
                     <li>Email: info@techfury.pl</li>
-                    <li>Telefon: </li>
+                    <li>Telefon: (+48) 510 901 465</li>
                 </ul>
             </div>
         </div>

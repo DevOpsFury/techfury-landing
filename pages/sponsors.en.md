@@ -26,7 +26,7 @@ TechFury is a unique technology conference that brings together enthusiasts and 
 - Logo on the main conference website
 - Large logo on all conference materials
 - Booth in the main expo area
-- 2 free conference tickets
+- 3 free conference tickets
 - 30-minute presentation in the main track
 - Option to include materials in conference packs
 
@@ -34,7 +34,7 @@ TechFury is a unique technology conference that brings together enthusiasts and 
 - Logo on the conference website
 - Medium logo on conference materials
 - Booth in the expo area
-- 1 free ticket
+- 2 free conference tickets
 - 15-minute presentation
 - Option to include materials in conference packs
 

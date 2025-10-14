@@ -50,7 +50,7 @@ TechFury poszukuje prelegentów, którzy chcą podzielić się swoją wiedzą i 
 
 - Otwarcie CFP: 1 października 2025
 - Zamknięcie CFP: 1 kwietnia 2026
-- Powiadomienie prelegentów: 1 lutego 2026
+- Powiadomienie prelegentów: 15 kwietnia 2026
 - Termin na finalne slajdy: 15 kwietnia 2026
 
 ### Korzyści dla Prelegentów
