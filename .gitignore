@@ -8,5 +8,8 @@ cache
 *.swp
 .doit.db*
 
+# Don't include generated webpage
+output
+
 # os-specific
 .DS_Store
