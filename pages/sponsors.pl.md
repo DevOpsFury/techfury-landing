@@ -2,14 +2,12 @@
 .. title: Zostań Sponsorem TechFury
 .. slug: sponsors
 .. date: 2025-10-02 12:00:00 UTC
-.. tags: 
-.. category: 
-.. link: 
+.. tags:
+.. category:
+.. link:
 .. description: Informacje dla sponsorów konferencji TechFury
 .. type: text
 -->
-
-# Zostań Sponsorem TechFury
 
 ## Dlaczego warto zostać sponsorem?
 
@@ -48,4 +46,4 @@ TechFury to wyjątkowa konferencja technologiczna, która gromadzi pasjonatów i
 Jeśli jesteś zainteresowany zostaniem sponsorem TechFury, skontaktuj się z nami:
 
 Email: sponsors@techfury.pl
-Tel: +48 
+Tel: +48
