@@ -19,9 +19,6 @@ concurrency:
 
 jobs:
   build:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -41,7 +38,13 @@ jobs:
         run: |
           nikola clean
           nikola build
-
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+      needs: build
+    runs-on: ubuntu-latest
+    steps:
       - name: Upload output as artifact
         uses: actions/upload-artifact@v4
         with:
