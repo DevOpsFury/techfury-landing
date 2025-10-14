@@ -42,9 +42,8 @@ jobs:
           nikola clean
           nikola build
       - name: Upload output as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v4
         with:
-          name: github-pages
           path: output/
   deploy:
     environment:
