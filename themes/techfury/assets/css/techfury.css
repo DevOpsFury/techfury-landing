@@ -101,6 +101,7 @@ header {
     margin-bottom: 1rem;
     background: linear-gradient(45deg, var(--fury-primary), var(--fury-accent));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
