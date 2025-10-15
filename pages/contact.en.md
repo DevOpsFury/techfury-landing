@@ -2,14 +2,12 @@
 .. title: Contact
 .. slug: contact
 .. date: 2025-10-02 12:00:00 UTC
-.. tags: 
-.. category: 
-.. link: 
+.. tags:
+.. category:
+.. link:
 .. description: Contact information for TechFury conference
 .. type: text
 -->
-
-# Contact
 
 ## Get in touch with us
 
