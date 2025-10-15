@@ -2,14 +2,12 @@
 .. title: Call for Papers (CFP)
 .. slug: cfp
 .. date: 2025-10-02 12:00:00 UTC
-.. tags: 
-.. category: 
-.. link: 
+.. tags:
+.. category:
+.. link:
 .. description: Information for TechFury conference speakers
 .. type: text
 -->
-
-# Call for Papers (CFP)
 
 ## Share your knowledge at TechFury 2026
 

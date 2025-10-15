@@ -2,14 +2,12 @@
 .. title: Kontakt
 .. slug: contact
 .. date: 2025-10-02 12:00:00 UTC
-.. tags: 
-.. category: 
-.. link: 
+.. tags:
+.. category:
+.. link:
 .. description: Information for TechFury conference sponsors
 .. type: text
 -->
-
-# Kontakt
 
 ## Skontaktuj się z nami
 

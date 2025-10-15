@@ -2,14 +2,12 @@
 .. title: TechFury 2026 Agenda
 .. slug: agenda
 .. date: 2025-10-01 15:00:00 UTC+02:00
-.. tags: 
-.. category: 
-.. link: 
+.. tags:
+.. category:
+.. link:
 .. description: Agenda for TechFury 2026 conference
 .. type: text
 -->
-
-# TechFury 2026 Agenda
 
 ## Day 1 - April 24, 2026
 

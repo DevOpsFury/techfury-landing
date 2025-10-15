@@ -2,14 +2,12 @@
 .. title: Become a TechFury Sponsor
 .. slug: sponsors
 .. date: 2025-10-02 12:00:00 UTC
-.. tags: 
-.. category: 
-.. link: 
+.. tags:
+.. category:
+.. link:
 .. description: Information for TechFury conference sponsors
 .. type: text
 -->
-
-# Become a TechFury Sponsor
 
 ## Why become a sponsor?
 

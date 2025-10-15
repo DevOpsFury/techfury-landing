@@ -38,7 +38,7 @@ SITE_URL = "https://techfury.pl/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://techfury.pl/"
-BLOG_EMAIL = "grzegorz@devopsfury.com"
+BLOG_EMAIL = "hello@devopsfury.com"
 BLOG_DESCRIPTION = {"pl": "Poważna konferencja dla pasjonatów technologii", "en": "Serious conference for tech enthusiasts"}
 
 DEFAULT_LANG = "pl"
@@ -985,14 +985,15 @@ FEED_LINKS_APPEND_QUERY = False
 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
-LICENSE = ""
+# LICENSE = ""
 # I recommend using the Creative Commons' wizard:
 # https://creativecommons.org/choose/
-# LICENSE = """
-# <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-# <img alt="Creative Commons License BY-NC-SA"
-# style="border-width:0; margin-bottom:12px;"
-# src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
+LICENSE = """
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<img alt="Creative Commons License BY-NC-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>
+"""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
