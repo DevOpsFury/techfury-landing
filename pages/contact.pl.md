@@ -54,7 +54,7 @@ Masz pytania dotyczące TechFury 2026? Jesteśmy do Twojej dyspozycji!
                 <p>Zainteresowany sponsorowaniem TechFury?</p>
                 <ul>
                     <li>Email: sponsors@techfury.pl</li>
-                    <li><a href="/sponsorzy/">Pakiety Sponsorskie</a></li>
+                    <li><a href="/sponsors/">Pakiety Sponsorskie</a></li>
                 </ul>
             </div>
         </div>
@@ -79,13 +79,13 @@ Masz pytania dotyczące TechFury 2026? Jesteśmy do Twojej dyspozycji!
 
 <div class="card mb-4">
     <div class="card-body">
-        <h3>Centrum Kongresowe Warszawa</h3>
-        <p>ul. Example 123<br>00-001 Warszawa</p>
+        <h3>Ogłosimy wkrótce</h3>
+        <p><br></p>
         <p><strong>Jak dotrzeć:</strong></p>
         <ul>
-            <li>5 minut piechotą od Dworca Centralnego</li>
-            <li>20 minut od lotniska Chopina</li>
-            <li>Liczne połączenia tramwajowe i autobusowe</li>
+            <li></li>
+            <li></li>
+            <li></li>
         </ul>
     </div>
 </div>
