@@ -29,6 +29,7 @@ TechFury is looking for speakers who want to share their knowledge and experienc
 - DevSecOps
 - Platform engineering
 - Developer Experience (DX)
+- HR/Job search, Freelancing and similar topics
 
 ### Session Types
 
@@ -68,8 +69,6 @@ Your proposal should include:
 3. Abstract (max 300 words)
 4. Target audience and prerequisites
 5. Your brief bio
-6. Previous speaking experience
-7. Links to previous talks (if available)
 
 ### Selection Process
 
@@ -83,6 +82,6 @@ All submissions will be reviewed by our program committee based on:
 
 ### Submit Your Proposal
 
-[Submit your proposal here](#) {: .btn .btn-primary }
+[Submit your proposal here](https://docs.google.com/forms/d/e/1FAIpQLSfkq8_XaaOXTWZ-lQWUl1yfkJt6Eh2allJRl99rtlvVvQfBGA/viewform?usp=dialog)
 
 For any questions about the CFP process, contact us at cfp@techfury.pl

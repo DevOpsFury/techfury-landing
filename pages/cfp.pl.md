@@ -29,6 +29,7 @@ TechFury poszukuje prelegentów, którzy chcą podzielić się swoją wiedzą i 
 - DevSecOps
 - Inżynieria platformy
 - Developer Experience (DX)
+- HR/Szukanie pracy, Freelancing i tematy powiązane
 
 ### Rodzaje Sesji
 
@@ -80,6 +81,6 @@ Wszystkie zgłoszenia będą oceniane przez komitet programowy na podstawie:
 
 ### Zgłoś Swoją Propozycję
 
-[Zgłoś swoją propozycję tutaj](#) {: .btn .btn-primary }
+[Zgłoś swoją propozycję tutaj](https://docs.google.com/forms/d/e/1FAIpQLSfkq8_XaaOXTWZ-lQWUl1yfkJt6Eh2allJRl99rtlvVvQfBGA/viewform?usp=dialog)
 
 W razie pytań dotyczących procesu CFP, skontaktuj się z nami: cfp@techfury.pl
