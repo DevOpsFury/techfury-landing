@@ -54,7 +54,7 @@ Do you have questions about TechFury 2026? We are here to help!
                 <p>Interested in sponsoring TechFury?</p>
                 <ul>
                     <li>Email: sponsors@techfury.pl</li>
-                    <li><a href="/sponsors/">Sponsorship Packages</a></li>
+                    <li><a href="/en/sponsors/">Sponsorship Packages</a></li>
                 </ul>
             </div>
         </div>
@@ -79,13 +79,13 @@ Do you have questions about TechFury 2026? We are here to help!
 
 <div class="card mb-4">
     <div class="card-body">
-        <h3>Congress Center Warsaw</h3>
-        <p>ul. Example 123<br>00-001 Warsaw, Poland</p>
+        <h3>We will let you know soon!</h3>
+        <p><br></p>
         <p><strong>Getting there:</strong></p>
         <ul>
-            <li>5 minutes walk from Central Station</li>
-            <li>20 minutes from Warsaw Chopin Airport</li>
-            <li>Multiple tram and bus connections</li>
+            <li></li>
+            <li></li>
+            <li></li>
         </ul>
     </div>
 </div>
