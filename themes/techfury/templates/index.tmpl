@@ -228,10 +228,11 @@ ${template_hooks['extra_head']()}
     ${base.late_load_js()}
     <!-- Modal for ticket purchase -->
     <div id="ticket-modal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7); z-index:9999; align-items:center; justify-content:center;">
-        <div style="background:var(--fury-dark); color:var(--fury-light); padding:2rem 2.5rem; border-radius:10px; max-width:400px; margin:auto; text-align:center; position:relative;">
+        <div style="background:var(--fury-dark); color:var(--fury-light); padding:2rem 2.5rem; border-radius:10px; max-width:600px; margin:auto; text-align:center; position:relative;">
             <button id="close-modal" style="position:absolute; top:0.5em; right:0.5em; background:none; border:none; color:var(--fury-light); font-size:1.5em; cursor:pointer;">&times;</button>
             <h3>Kup bilet</h3>
-            <p>Rejestracja online będzie dostępna wkrótce.<br>Śledź nas na social media!</p>
+            <iframe src="https://app.evenea.pl/event/techfury2026/?out=1&source=event_iframe" width="100%" scrolling="no" style="border: 0;"></iframe>
+<script type="text/javascript" src="https://app.evenea.pl/js/iframe/new/iframeResizer2.js"></script>
         </div>
     </div>
     <!-- Interactivity: FAQ accordion, smooth scroll, modal -->
