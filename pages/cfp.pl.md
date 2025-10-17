@@ -11,6 +11,8 @@
 
 ## Podziel się swoją wiedzą na TechFury 2026
 
+[Zgłoś swoją propozycję tutaj](https://docs.google.com/forms/d/e/1FAIpQLSfkq8_XaaOXTWZ-lQWUl1yfkJt6Eh2allJRl99rtlvVvQfBGA/viewform?usp=dialog)
+
 TechFury poszukuje prelegentów, którzy chcą podzielić się swoją wiedzą i doświadczeniem ze społecznością. Szczególnie interesują nas:
 
 ### Obszary Tematyczne

@@ -11,6 +11,8 @@
 
 ## Share your knowledge at TechFury 2026
 
+[Submit your proposal here](https://docs.google.com/forms/d/e/1FAIpQLSfkq8_XaaOXTWZ-lQWUl1yfkJt6Eh2allJRl99rtlvVvQfBGA/viewform?usp=dialog)
+
 TechFury is looking for speakers who want to share their knowledge and experience with the community. We are especially interested in:
 
 ### Topics of Interest
