@@ -23,7 +23,7 @@ TechFury szuka zaangażowanych wolontariuszy, którzy pomogą przy organizacji w
 
 Zainteresowany/a? Skontaktuj się z organizatorami i podaj krótkie informacje o sobie (imię, kontakt, ewentualne doświadczenie):
 
-Email: volunteers@techfury.pl
+Email: hello@techfury.pl
 Temat: Wolontariat TechFury 2026
 
 Dziękujemy za zainteresowanie — skontaktujemy się wkrótce!

@@ -23,7 +23,7 @@ TechFury is looking for committed volunteers to help run the event. As a volunte
 
 Interested? Contact the organizers and provide a short note about yourself (name, contact, any relevant experience):
 
-Email: volunteers@techfury.pl
+Email: hello@techfury.pl
 Subject: TechFury Volunteer 2026
 
 Thank you for your interest — we'll get back to you soon!

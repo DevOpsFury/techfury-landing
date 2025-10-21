@@ -96,10 +96,9 @@ Masz pytania dotyczące TechFury 2026? Jesteśmy do Twojej dyspozycji!
     <div class="card-body">
         <p>Bądź na bieżąco z informacjami o TechFury:</p>
         <ul>
-            <li><a href="#">Twitter</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61582610543557">Facebook</a></li>
             <li><a href="#">LinkedIn</a></li>
             <li><a href="#">YouTube</a></li>
-            <li><a href="#">GitHub</a></li>
         </ul>
     </div>
 </div>

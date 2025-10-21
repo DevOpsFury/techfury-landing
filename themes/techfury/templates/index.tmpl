@@ -169,6 +169,22 @@ ${template_hooks['extra_head']()}
                         </div>
                     </section>
 
+                    <!-- Partners Section -->
+                    <section class="sponsors-section" style="margin: 3rem 0; text-align: center;">
+                        % if lang == 'en':
+                            <h2>Partners</h2>
+                        % else:
+                            <h2>Partnerzy</h2>
+                        % endif
+                        <div class="sponsors-list" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-top: 2rem;">
+                            <div class="sponsor-card" style="background: var(--fury-dark); border-radius: 8px; padding: 1.5rem; width: 200px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center;">
+                                <a href="https://www.combinat.org.pl/">
+                                <img src="/images/combinat_bb.png" alt="Combinat Coworking" style="max-width: 200px; max-height: 180px; width: 100%; height: auto;">
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
                     <!-- FAQ Section -->
                     <section class="faq-section" style="margin: 3rem 0; text-align: center;">
                         <h2>FAQ</h2>
