@@ -147,6 +147,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/agenda/", "Agenda"),
         ("/sponsors/", "Sponsorzy"),
+        ("/volunteer/", "Wolontariat"),
         ("/cfp/", "CFP"),
         ("/contact/", "Kontakt"),
         ("/en/", "English"),
@@ -154,6 +155,7 @@ NAVIGATION_LINKS = {
     "en": (
         ("/en/agenda/", "Agenda"),
         ("/en/sponsors/", "Sponsors"),
+        ("/en/volunteer/", "Volunteer"),
         ("/en/cfp/", "CFP"),
         ("/en/contact/", "Contact"),
         ("/", "Polski"),
