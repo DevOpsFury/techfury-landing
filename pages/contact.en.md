@@ -96,10 +96,9 @@ Do you have questions about TechFury 2026? We are here to help!
     <div class="card-body">
         <p>Stay updated with the latest news about TechFury:</p>
         <ul>
-            <li><a href="#">Twitter</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61582610543557">Facebook</a></li>
             <li><a href="#">LinkedIn</a></li>
             <li><a href="#">YouTube</a></li>
-            <li><a href="#">GitHub</a></li>
         </ul>
     </div>
 </div>
