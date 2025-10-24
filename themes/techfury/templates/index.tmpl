@@ -19,9 +19,18 @@ ${template_hooks['extra_head']()}
     <!-- Header and menu -->
     <header class="conference-header">
         <div class="header-inner">
-            <a href="/" class="logo-link">
-                <img src="/assets/images/logo-small.png" alt="Conference Logo" class="logo-small" style="height:100px;width:auto;vertical-align:middle;">
+
+        % if lang == 'en':
+            <a class="logo-link" href="/en/">
+            <img src="/assets/images/logo-small.png" alt="TechFury 2026 logo" class="logo-small" style="height:100px;width:auto;vertical-align:middle;">
             </a>
+
+        % else:
+            <a class="logo-link" href="/">
+            <img src="/assets/images/logo-small.png" alt="TechFury 2026 logo" class="logo-small" style="height:100px;width:auto;vertical-align:middle;">
+            </a>
+        % endif
+
             ${menu.top_menu()}
         </div>
     </header>
@@ -111,7 +120,7 @@ ${template_hooks['extra_head']()}
                             <h2 style="text-align: center;">Agenda TechFury 2026</h2>
                             <h3 style="text-align: center; font-weight: normal; color: var(--fury-accent);">Dzień 1 - 24 kwietnia 2026</h3>
                         % endif
-                        <div class="agenda-table" style="max-width: 700px; margin: 2rem auto;">
+                        <div class="agenda-table" style="max-width: 850px; margin: 2rem auto;">
                             <table style="width: 100%; background: var(--fury-dark); color: var(--fury-light); border-radius: 8px; overflow: hidden;">
                                 <thead>
                                     <tr style="background: var(--fury-accent); color: #fff;">
@@ -119,34 +128,36 @@ ${template_hooks['extra_head']()}
                                             <th style="padding: 0.75em;">Time</th>
                                             <th style="padding: 0.75em;">Topic</th>
                                             <th style="padding: 0.75em;">Speaker</th>
+                                            <th style="padding: 0.75em;">Language</th>
                                         % else:
                                             <th style="padding: 0.75em;">Godzina</th>
                                             <th style="padding: 0.75em;">Temat</th>
                                             <th style="padding: 0.75em;">Prelegent</th>
+                                            <th style="padding: 0.75em;">Język</th>
                                         % endif
                                     </tr>
                                 </thead>
                                 <tbody>
                                     % if lang == 'en':
-                                        <tr><td style="padding: 0.75em;">10:00 - 11:00</td><td style="padding: 0.75em;">Registration and coffee</td><td style="padding: 0.75em;"></td></tr>
-                                        <tr><td style="padding: 0.75em;">11:00 - 11:45</td><td style="padding: 0.75em;">*Keynote:* DevOps in the Age of AI</td><td style="padding: 0.75em;">TBA</td></tr>
-                                        <tr><td style="padding: 0.75em;">12:00 - 12:45</td><td style="padding: 0.75em;">Coming soon</td><td style="padding: 0.75em;">TBA</td></tr>
-                                        <tr><td style="padding: 0.75em;">13:00 - 13:45</td><td style="padding: 0.75em;">Coming soon</td><td style="padding: 0.75em;">TBA</td></tr>
-                                        <tr><td style="padding: 0.75em;">13:45 - 14:30</td><td style="padding: 0.75em;">Lunch break</td><td style="padding: 0.75em;"></td></tr>
-                                        <tr><td style="padding: 0.75em;">14:30 - 15:15</td><td style="padding: 0.75em;">Coming soon</td><td style="padding: 0.75em;">TBA</td></tr>
-                                        <tr><td style="padding: 0.75em;">15:30 - 16:15</td><td style="padding: 0.75em;">Coming soon</td><td style="padding: 0.75em;">TBA</td></tr>
-                                        <tr><td style="padding: 0.75em;">16:30 - 17:15</td><td style="padding: 0.75em;">Coming soon</td><td style="padding: 0.75em;">TBA</td></tr>
-                                        <tr><td style="padding: 0.75em;">17:15 - 18:00</td><td style="padding: 0.75em;">Flash talks and hallway discussions</td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">10:00 - 11:00</td><td style="padding: 0.75em;">Registration and coffee</td><td style="padding: 0.75em;"></td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">11:00 - 11:45</td><td style="padding: 0.75em;">*Keynote:* DevOps in the Age of AI</td><td style="padding: 0.75em;">TBA</td><td style="padding: 0.75em;">Polish</td></tr>
+                                        <tr><td style="padding: 0.75em;">12:00 - 12:45</td><td style="padding: 0.75em;">The kind of phishing that developers likely click</td><td style="padding: 0.75em;">Tomasz Szmidt</td><td style="padding: 0.75em;">English</td></tr>
+                                        <tr><td style="padding: 0.75em;">13:00 - 13:45</td><td style="padding: 0.75em;">Coming soon</td><td style="padding: 0.75em;">TBA</td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">13:45 - 14:30</td><td style="padding: 0.75em;">Lunch break</td><td style="padding: 0.75em;"></td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">14:30 - 15:15</td><td style="padding: 0.75em;">Coming soon</td><td style="padding: 0.75em;">TBA</td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">15:30 - 16:15</td><td style="padding: 0.75em;">Coming soon</td><td style="padding: 0.75em;">TBA</td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">16:30 - 17:15</td><td style="padding: 0.75em;">Coming soon</td><td style="padding: 0.75em;">TBA</td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">17:15 - 18:00</td><td style="padding: 0.75em;">Flash talks and hallway discussions</td><td style="padding: 0.75em;"></td><td style="padding: 0.75em;"></td></tr>
                                     % else:
-                                        <tr><td style="padding: 0.75em;">10:00 - 11:00</td><td style="padding: 0.75em;">Rejestracja i kawa</td><td style="padding: 0.75em;"></td></tr>
-                                        <tr><td style="padding: 0.75em;">11:00 - 11:45</td><td style="padding: 0.75em;">*Keynote:* DevOps w świecie AI</td><td style="padding: 0.75em;">TBA</td></tr>
-                                        <tr><td style="padding: 0.75em;">12:00 - 12:45</td><td style="padding: 0.75em;">Wkrótce</td><td style="padding: 0.75em;">TBA</td></tr>
-                                        <tr><td style="padding: 0.75em;">13:00 - 13:45</td><td style="padding: 0.75em;">Wkrótce</td><td style="padding: 0.75em;">TBA</td></tr>
-                                        <tr><td style="padding: 0.75em;">13:45 - 14:30</td><td style="padding: 0.75em;">Przerwa obiadowa</td><td style="padding: 0.75em;"></td></tr>
-                                        <tr><td style="padding: 0.75em;">14:30 - 15:15</td><td style="padding: 0.75em;">Wkrótce</td><td style="padding: 0.75em;">TBA</td></tr>
-                                        <tr><td style="padding: 0.75em;">15:30 - 16:15</td><td style="padding: 0.75em;">Wkrótce</td><td style="padding: 0.75em;">TBA</td></tr>
-                                        <tr><td style="padding: 0.75em;">16:30 - 17:15</td><td style="padding: 0.75em;">Wkrótce</td><td style="padding: 0.75em;">TBA</td></tr>
-                                        <tr><td style="padding: 0.75em;">17:15 - 18:00</td><td style="padding: 0.75em;">Flash talks i dyskusje w kuluarach</td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">10:00 - 11:00</td><td style="padding: 0.75em;">Rejestracja i kawa</td><td style="padding: 0.75em;"></td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">11:00 - 11:45</td><td style="padding: 0.75em;">*Keynote:* DevOps w świecie AI</td><td style="padding: 0.75em;">TBA</td><td style="padding: 0.75em;">Polski</td></tr>
+                                        <tr><td style="padding: 0.75em;">12:00 - 12:45</td><td style="padding: 0.75em;">The kind of phishing that developers likely click</td><td style="padding: 0.75em;">Tomasz Szmidt</td><td style="padding: 0.75em;">Angielski</td></tr>
+                                        <tr><td style="padding: 0.75em;">13:00 - 13:45</td><td style="padding: 0.75em;">Wkrótce</td><td style="padding: 0.75em;">TBA</td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">13:45 - 14:30</td><td style="padding: 0.75em;">Przerwa obiadowa</td><td style="padding: 0.75em;"></td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">14:30 - 15:15</td><td style="padding: 0.75em;">Wkrótce</td><td style="padding: 0.75em;">TBA</td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">15:30 - 16:15</td><td style="padding: 0.75em;">Wkrótce</td><td style="padding: 0.75em;">TBA</td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">16:30 - 17:15</td><td style="padding: 0.75em;">Wkrótce</td><td style="padding: 0.75em;">TBA</td><td style="padding: 0.75em;"></td></tr>
+                                        <tr><td style="padding: 0.75em;">17:15 - 18:00</td><td style="padding: 0.75em;">Flash talks i dyskusje w kuluarach</td><td style="padding: 0.75em;"></td><td style="padding: 0.75em;"></td></tr>
                                     % endif
                                 </tbody>
                             </table>

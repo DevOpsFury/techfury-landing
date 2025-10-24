@@ -19,9 +19,18 @@ ${template_hooks['extra_head']()}
     <!-- Header and menu -->
     <header class="conference-header">
         <div class="header-inner">
-            <a href="/" class="logo-link">
-                <img src="/assets/images/logo-small.png" alt="Conference Logo" class="logo-small" style="height:100px;width:auto;vertical-align:middle;">
+
+        % if lang == 'en':
+            <a class="logo-link" href="/en/">
+            <img src="/assets/images/logo-small.png" alt="TechFury 2026 logo" class="logo-small" style="height:100px;width:auto;vertical-align:middle;">
             </a>
+
+        % else:
+            <a class="logo-link" href="/">
+            <img src="/assets/images/logo-small.png" alt="TechFury 2026 logo" class="logo-small" style="height:100px;width:auto;vertical-align:middle;">
+            </a>
+        % endif
+
             ${menu.top_menu()}
         </div>
     </header>
