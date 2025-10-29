@@ -36,8 +36,8 @@ TechFury is looking for speakers who want to share their knowledge and experienc
 ### Session Types
 
 1. **Conference presentations (45 minutes)**
-   - 35 minutes presentation
-   - 10 minutes for Q&A
+     - 35 minutes presentation
+     - 10 minutes for Q&A
 
 ### What We Are Looking For
 

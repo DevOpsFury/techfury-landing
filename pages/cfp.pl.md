@@ -36,8 +36,8 @@ TechFury poszukuje prelegentów, którzy chcą podzielić się swoją wiedzą i 
 ### Rodzaje Sesji
 
 1. **Prezentacje konferencyjne (45 minut)**
-   - 35 minut prezentacji
-   - 10 minut na pytania i odpowiedzi
+     - 35 minut prezentacji
+     - 10 minut na pytania i odpowiedzi
 
 ### Czego Szukamy
 
