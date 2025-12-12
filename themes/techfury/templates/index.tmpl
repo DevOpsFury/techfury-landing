@@ -359,15 +359,25 @@ ${template_hooks['extra_head']()}
                             <h2>Partnerzy</h2>
                         % endif
                         <div class="sponsors-list" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-top: 2rem;">
-                            <div class="sponsor-card" style="background: var(--fury-dark); border-radius: 8px; padding: 1.5rem; width: 200px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center;">
+                            <div class="sponsor-card" style="background: var(--fury-dark); border-radius: 8px; padding: 1.5rem; width: 280px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
                                 <a href="https://www.combinat.org.pl/">
-                                <img src="/images/combinat_bb.png" alt="Combinat Coworking" style="max-width: 200px; max-height: 180px; width: 100%; height: auto;">
+                                <img src="/images/combinat_bb.png" alt="Combinat Coworking" style="max-width: 200px; max-height: 120px; width: 100%; height: auto; margin-bottom: 1rem;">
                                 </a>
+                                % if lang == 'en':
+                                    <p style="color: var(--fury-light); font-size: 0.95em;">Community-driven coworking space in the heart of Szczecin</p>
+                                % else:
+                                    <p style="color: var(--fury-light); font-size: 0.95em;">Społeczna przestrzeń coworkingowa w centrum Szczecina</p>
+                                % endif
                             </div>
-                            <div class="sponsor-card" style="background: var(--fury-dark); border-radius: 8px; padding: 1.5rem; width: 200px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center;">
+                            <div class="sponsor-card" style="background: var(--fury-dark); border-radius: 8px; padding: 1.5rem; width: 280px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
                                 <a href="https://useme.com/">
-                                <img src="/images/useme_white_outline.png" alt="Combinat Coworking" style="max-width: 200px; max-height: 180px; width: 100%; height: auto;">
+                                <img src="/images/useme_white_outline.png" alt="Useme" style="max-width: 200px; max-height: 120px; width: 100%; height: auto; margin-bottom: 1rem;">
                                 </a>
+                                % if lang == 'en':
+                                    <p style="color: var(--fury-light); font-size: 0.95em;">Platform connecting freelancers and clients with simplified invoicing and contract management</p>
+                                % else:
+                                    <p style="color: var(--fury-light); font-size: 0.95em;">Platforma łącząca freelancerów i zleceniodawców z uproszczonym rozliczaniem i zarządzaniem umowami</p>
+                                % endif
                             </div>
                         </div>
                     </section>
@@ -378,29 +388,74 @@ ${template_hooks['extra_head']()}
                         <div class="faq-list" style="max-width: 700px; margin: 2rem auto; text-align: left;">
                             <div class="faq-item" style="margin-bottom: 1.5rem;">
                                 % if lang == 'en':
+                                    <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Who is TechFury for?</button>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">TechFury is ideal for DevOps engineers, cloud architects, software developers, IT managers, and anyone interested in learning about modern DevOps practices, AI integration, and cloud technologies. Both beginners and experienced professionals will find valuable content.</div>
+                                % else:
+                                    <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Dla kogo jest TechFury?</button>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">TechFury idealna dla inżynierów DevOps, architektów chmury, deweloperów, menedżerów IT i wszystkich zainteresowanych nowoczesnym DevOps, integracją AI i technologiami chmurowymi. Zarówno początkujący jak i doświadczeni profesjonaliści znajdą cenną wiedzę.</div>
+                                % endif
+                            </div>
+                            <div class="faq-item" style="margin-bottom: 1.5rem;">
+                                % if lang == 'en':
+                                    <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">What's included with my ticket?</button>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">All tickets include: full day access to all sessions, lunch and coffee breaks, networking sessions, access to speaker materials. Premium tickets also include a VIP speaker dinner and access to session recordings.</div>
+                                % else:
+                                    <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Co obejmuje bilet?</button>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Każdy bilet obejmuje: dostęp do wszystkich sesji przez cały dzień, obiad i przerwy kawowe, sesje networkingowe, dostęp do materiałów prelegentów. Bilety Premium dodatkowo obejmują kolację z prelegentami VIP i dostęp do nagrań sesji.</div>
+                                % endif
+                            </div>
+                            <div class="faq-item" style="margin-bottom: 1.5rem;">
+                                % if lang == 'en':
+                                    <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">What's the format of the sessions?</button>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">We offer a mix of 45-minute keynote talks, technical deep-dives, hands-on workshops, and lightning talks. Sessions are held in English and Polish. Expect interactive Q&A with speakers.</div>
+                                % else:
+                                    <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Jaki jest format sesji?</button>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Oferujemy mix 45-minutowych prelekcji, deep-dive'ów technicznych, warsztatów praktycznych i lightning talków. Sesje w języku angielskim i polskim. Spodziewaj się interaktywnych sesji Q&A ze mówcami.</div>
+                                % endif
+                            </div>
+                            <div class="faq-item" style="margin-bottom: 1.5rem;">
+                                % if lang == 'en':
+                                    <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Will there be networking and afterparty?</button>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Absolutely! We have dedicated networking sessions throughout the day, a VIP speaker dinner for Premium ticket holders, and a casual afterparty for all attendees. It's a great opportunity to connect with fellow professionals and speakers.</div>
+                                % else:
+                                    <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Czy będzie networking i after party?</button>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Oczywiście! Mamy dedykowane sesje networkingowe przez cały dzień, kolację z prelegentami VIP dla posiadaczy biletów Premium i nieformalne after party dla wszystkich uczestników. To świetna okazja do nawiązania kontaktów z innymi profesjonalistami i mówcami.</div>
+                                % endif
+                            </div>
+                            <div class="faq-item" style="margin-bottom: 1.5rem;">
+                                % if lang == 'en':
                                     <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">How can I buy a ticket?</button>
-                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Click the "Buy ticket" button at the top of the page or in the registration section below.</div>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Click the "Buy ticket" button at the top of the page or scroll to the pricing section. You'll be redirected to our secure booking system where you can select your ticket tier and complete payment.</div>
                                 % else:
                                     <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Jak mogę kupić bilet?</button>
-                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Kliknij przycisk \"Kup bilet\" na górze strony lub w sekcji rejestracji poniżej.</div>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Kliknij przycisk \"Kup bilet\" na górze strony lub przewiń do sekcji cennika. Zostaniesz przeniesiony do naszego bezpiecznego systemu rezerwacji, gdzie możesz wybrać typ biletu i dokonać płatności.</div>
+                                % endif
+                            </div>
+                            <div class="faq-item" style="margin-bottom: 1.5rem;">
+                                % if lang == 'en':
+                                    <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">What's the refund policy?</button>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">We offer full refunds for cancellations made up to 2 weeks before the event. Cancellations within 2 weeks of the event are non-refundable. Ticket transfers to another person are always allowed at no additional cost.</div>
+                                % else:
+                                    <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Czy bilety są zwrotne?</button>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Oferujemy pełny zwrot pieniędzy za anulowanie do 2 tygodni przed wydarzeniem. Anulowania w ciągu 2 tygodni przed wydarzeniem nie podlegają zwrotowi. Możesz zawsze bezpłatnie przenieść bilet na inną osobę.</div>
                                 % endif
                             </div>
                             <div class="faq-item" style="margin-bottom: 1.5rem;">
                                 % if lang == 'en':
                                     <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Is the event in-person?</button>
-                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Yes, the conference will take place in Szczecin, at the Conference Center.</div>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Yes, TechFury 2026 is a fully in-person event taking place on April 24, 2026 in Szczecin, Poland. All sessions, networking, and meals are conducted on-site.</div>
                                 % else:
                                     <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Czy wydarzenie jest stacjonarne?</button>
-                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Tak, konferencja odbędzie się w Szczecinie, w Centrum Konferencyjnym.</div>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Tak, TechFury 2026 jest w pełni stacjonarne i odbędzie się 24 kwietnia 2026 w Szczecinie, Polska. Wszystkie sesje, networking i posiłki odbywają się na terenie obiektu.</div>
                                 % endif
                             </div>
                             <div class="faq-item" style="margin-bottom: 1.5rem;">
                                 % if lang == 'en':
                                     <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Will recordings be available?</button>
-                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Yes, session recordings will be available after the event for registered participants.</div>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Yes, session recordings will be available after the event. Premium ticket holders get immediate access, while Standard ticket holders can access recordings 30 days after the conference.</div>
                                 % else:
                                     <button class="faq-question" style="color: var(--fury-primary); font-weight: bold; background:none; border:none; width:100%; text-align:left; font-size:1.1em; cursor:pointer; padding:0;">Czy będą dostępne nagrania?</button>
-                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Tak, nagrania prelekcji będą dostępne po wydarzeniu dla zarejestrowanych uczestników.</div>
+                                    <div class="faq-answer" style="color: var(--fury-light); display:none; margin-top:0.5em;">Tak, nagrania sesji będą dostępne po wydarzeniu. Posiadacze biletów Premium uzyskują natychmiastowy dostęp, podczas gdy posiadacze biletów Standard mogą uzyskać dostęp 30 dni po konferencji.</div>
                                 % endif
                             </div>
                         </div>
