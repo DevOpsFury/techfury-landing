@@ -53,7 +53,7 @@ ${template_hooks['extra_head']()}
 
                 % if 'index' in pagekind:
                     <!-- Landing Page Content Start -->
-                    <!-- Hero Section -->
+                    <!-- Hero Section with Strong Value Proposition -->
                     <div class="hero">
                         <div class="container hero-container">
                             <div class="hero-logo">
@@ -62,15 +62,75 @@ ${template_hooks['extra_head']()}
                             <div class="hero-details">
                                 <h1 class="conference-title">TechFury Conference 2026</h1>
                                 % if lang == 'en':
-                                    <div class="conference-dates">April 24, 2026, Szczecin</div>
-                                    <a href="#" class="btn btn-primary btn-lg buy-ticket-btn" style="margin-top:1.5rem;">Buy ticket</a>
+                                    <h2 style="font-size:1.5em; color:var(--fury-primary); margin:1rem 0;">Master DevOps & AI with Top European Experts</h2>
+                                    <p style="font-size:1.1em; color:var(--fury-light); margin:1rem 0;">One unforgettable day of high-impact talks, hands-on sessions, and powerful networking. Join 200+ professionals shaping the future of cloud & AI.</p>
+                                    <div class="conference-dates" style="font-size:1.1em; margin:1.5rem 0;">📍 April 24, 2026 • Szczecin, Poland</div>
+                                    <div style="margin:1.5rem 0;">
+                                        <span style="background:var(--fury-accent); color:#fff; padding:0.5rem 1rem; border-radius:5px; font-weight:bold; display:inline-block; margin:0.5rem;">🎟️ Early Bird: 30% OFF</span>
+                                        <span style="background:#FF6B6B; color:#fff; padding:0.5rem 1rem; border-radius:5px; font-weight:bold; display:inline-block; margin:0.5rem;" id="urgency-badge">Only 42 seats left</span>
+                                    </div>
+                                    <a href="#pricing" class="btn btn-primary btn-lg buy-ticket-btn" style="margin-top:1.5rem;">Secure Your Spot</a>
                                 % else:
-                                    <div class="conference-dates">24 kwietnia 2026, Szczecin</div>
-                                    <a href="#" class="btn btn-primary btn-lg buy-ticket-btn" style="margin-top:1.5rem;">Kup bilet</a>
+                                    <h2 style="font-size:1.5em; color:var(--fury-primary); margin:1rem 0;">Opanuj DevOps & AI z Europejskimi Ekspertami</h2>
+                                    <p style="font-size:1.1em; color:var(--fury-light); margin:1rem 0;">Jeden niezapomniany dzień pełen impactowych presentacji, warsztatów i networkingu. Dołącz do 200+ profesjonalistów kształtujących przyszłość chmury i AI.</p>
+                                    <div class="conference-dates" style="font-size:1.1em; margin:1.5rem 0;">📍 24 kwietnia 2026 • Szczecin, Polska</div>
+                                    <div style="margin:1.5rem 0;">
+                                        <span style="background:var(--fury-accent); color:#fff; padding:0.5rem 1rem; border-radius:5px; font-weight:bold; display:inline-block; margin:0.5rem;">🎟️ Early Bird: 30% taniej</span>
+                                        <span style="background:#FF6B6B; color:#fff; padding:0.5rem 1rem; border-radius:5px; font-weight:bold; display:inline-block; margin:0.5rem;" id="urgency-badge">Pozostało 42 miejsc</span>
+                                    </div>
+                                    <a href="#pricing" class="btn btn-primary btn-lg buy-ticket-btn" style="margin-top:1.5rem;">Zarezerwuj miejsce</a>
                                 % endif
                             </div>
                         </div>
                     </div>
+
+                    <!-- Countdown Timer -->
+                    <section style="margin:2rem 0; text-align:center; background:rgba(114,9,183,0.1); padding:2rem; border-radius:8px;">
+                        % if lang == 'en':
+                            <h3 style="color:var(--fury-accent);">Early Bird Offer Ends In:</h3>
+                        % else:
+                            <h3 style="color:var(--fury-accent);">Oferta Early Bird kończy się za:</h3>
+                        % endif
+                        <div style="font-size:2em; font-weight:bold; color:var(--fury-primary); letter-spacing:2px;" id="countdown">45 days</div>
+                    </section>
+
+                    <!-- Testimonials Section -->
+                    <section style="margin:3rem 0; text-align:center; background:rgba(114,9,183,0.1); padding:2rem; border-radius:8px;">
+                        % if lang == 'en':
+                            <h2>What Attendees Say</h2>
+                        % else:
+                            <h2>Co mówią uczestnicy</h2>
+                        % endif
+                        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:2rem; margin-top:2rem;">
+                            <div style="background:var(--fury-dark); border-left:4px solid var(--fury-primary); padding:1.5rem; max-width:350px; border-radius:5px;">
+                                % if lang == 'en':
+                                    <p style="color:var(--fury-light); font-style:italic; margin-bottom:1rem;">"Outstanding speakers and amazing networking. Looking forward to it!"</p>
+                                    <div style="color:var(--fury-accent); font-weight:bold;">— Michał K., DevOps Engineer</div>
+                                % else:
+                                    <p style="color:var(--fury-light); font-style:italic; margin-bottom:1rem;">"Wspaniali mówcy i niesamowity networking. Nie mogę się doczekać!"</p>
+                                    <div style="color:var(--fury-accent); font-weight:bold;">— Michał K., Engineer DevOps</div>
+                                % endif
+                            </div>
+                            <div style="background:var(--fury-dark); border-left:4px solid var(--fury-accent); padding:1.5rem; max-width:350px; border-radius:5px;">
+                                % if lang == 'en':
+                                    <p style="color:var(--fury-light); font-style:italic; margin-bottom:1rem;">"I've been missing such events in Szczecin. Worth every penny."</p>
+                                    <div style="color:var(--fury-accent); font-weight:bold;">— Anna R., Tech Lead</div>
+                                % else:
+                                    <p style="color:var(--fury-light); font-style:italic; margin-bottom:1rem;">"Brakowało takich wydarzeń w Szczecinie. Naprawdę warte kazdego grosza."</p>
+                                    <div style="color:var(--fury-accent); font-weight:bold;">— Anna R., Tech Lead</div>
+                                % endif
+                            </div>
+                            <div style="background:var(--fury-dark); border-left:4px solid var(--fury-primary); padding:1.5rem; max-width:350px; border-radius:5px;">
+                                % if lang == 'en':
+                                    <p style="color:var(--fury-light); font-style:italic; margin-bottom:1rem;">"I've never been to Szczecin, but I'm sure it'll be the best tech conference in Poland."</p>
+                                    <div style="color:var(--fury-accent); font-weight:bold;">— Paweł T., Platform Architect</div>
+                                % else:
+                                    <p style="color:var(--fury-light); font-style:italic; margin-bottom:1rem;">"Nigdy nie byłem w Szczecinie, ale jestem pewien, ze to będzie najlepsza konferencja technologiczna w Polsce."</p>
+                                    <div style="color:var(--fury-accent); font-weight:bold;">— Paweł T., Architekt Platform</div>
+                                % endif
+                            </div>
+                        </div>
+                    </section>
 
                     <!-- Speakers Section -->
                     % if "true" == "false":
@@ -120,6 +180,101 @@ ${template_hooks['extra_head']()}
                         </div>
                     </section>
                     % endif
+                    <!-- Pricing Tiers Section -->
+                    <section id="pricing" style="margin:3rem 0; text-align:center;">
+                        % if lang == 'en':
+                            <h2>Ticket Options</h2>
+                            <p style="color:var(--fury-light); margin-bottom:2rem;">Choose the ticket tier that fits your needs</p>
+                        % else:
+                            <h2>Opcje Biletów</h2>
+                            <p style="color:var(--fury-light); margin-bottom:2rem;">Wybierz bilet, który odpowiada Twoim potrzebom</p>
+                        % endif
+                        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:2rem; max-width:1000px; margin:0 auto;">
+                            <!-- Standard Tier -->
+                            <div style="background:var(--fury-dark); border:2px solid var(--fury-accent); border-radius:10px; padding:2rem; width:250px; box-shadow:0 4px 12px rgba(0,0,0,0.3);">
+                                % if lang == 'en':
+                                    <h3 style="color:var(--fury-primary); font-size:1.5em;">Standard</h3>
+                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">129 zł<span style="font-size:0.6em;">early bird</span></div>
+                                    <div style="font-size:1.2em; color:var(--fury-light); margin-bottom:1rem; text-decoration:line-through; opacity:0.6;">189 zł</div>
+                                    <ul style="text-align:left; color:var(--fury-light); line-height:2;">
+                                        <li>✓ Full day access</li>
+                                        <li>✓ Lunch & coffee</li>
+                                        <li>✓ Networking sessions</li>
+                                    </ul>
+                                % else:
+                                    <h3 style="color:var(--fury-primary); font-size:1.5em;">Standard</h3>
+                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">129 zł<span style="font-size:0.6em;">early bird</span></div>
+                                    <div style="font-size:1.2em; color:var(--fury-light); margin-bottom:1rem; text-decoration:line-through; opacity:0.6;">189 zł</div>
+                                    <ul style="text-align:left; color:var(--fury-light); line-height:2;">
+                                        <li>✓ Dostęp całego dnia</li>
+                                        <li>✓ Obiad i kawa</li>
+                                        <li>✓ Sesje networkingowe</li>
+                                    </ul>
+                                % endif
+                            </div>
+
+                            <!-- Premium Tier (Most Popular) -->
+                            <div style="background:var(--fury-dark); border:3px solid var(--fury-primary); border-radius:10px; padding:2rem; width:250px; box-shadow:0 4px 12px rgba(255,75,43,0.4); position:relative; transform:scale(1.05);">
+                                % if lang == 'en':
+                                    <div style="position:absolute; top:-15px; left:50%; transform:translateX(-50%); background:var(--fury-primary); color:#fff; padding:0.5rem 1rem; border-radius:5px; font-weight:bold;">MOST POPULAR</div>
+                                % else:
+                                    <div style="position:absolute; top:-15px; left:50%; transform:translateX(-50%); background:var(--fury-primary); color:#fff; padding:0.5rem 1rem; border-radius:5px; font-weight:bold;">NAJPOPULARNIEJSZY</div>
+                                % endif
+                                % if lang == 'en':
+                                    <h3 style="color:var(--fury-primary); font-size:1.5em; margin-top:1rem;">Premium</h3>
+                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">229 zł<span style="font-size:0.6em;">early bird</span></div>
+                                    <div style="font-size:1.2em; color:var(--fury-light); margin-bottom:1rem; text-decoration:line-through; opacity:0.6;">329 zł</div>
+                                    <ul style="text-align:left; color:var(--fury-light); line-height:2;">
+                                        <li>✓ All Standard benefits</li>
+                                        <li>✓ VIP speaker dinner</li>
+                                        <li>✓ Early recording access</li>
+                                    </ul>
+                                % else:
+                                    <h3 style="color:var(--fury-primary); font-size:1.5em; margin-top:1rem;">Premium</h3>
+                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">229 zł<span style="font-size:0.6em;">early bird</span></div>
+                                    <div style="font-size:1.2em; color:var(--fury-light); margin-bottom:1rem; text-decoration:line-through; opacity:0.6;">329 zł</div>
+                                    <ul style="text-align:left; color:var(--fury-light); line-height:2;">
+                                        <li>✓ Wszystkie benefity Standard</li>
+                                        <li>✓ Kolacja z prelegentami VIP</li>
+                                        <li>✓ Wcześniejszy dostęp do nagrań</li>
+                                    </ul>
+                                % endif
+                            </div>
+
+                            <!-- Group Tier -->
+                            <div style="background:var(--fury-dark); border:2px solid var(--fury-accent); border-radius:10px; padding:2rem; width:250px; box-shadow:0 4px 12px rgba(0,0,0,0.3);">
+                                % if lang == 'en':
+                                    <h3 style="color:var(--fury-primary); font-size:1.5em;">Group (5+)</h3>
+                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">99 zł<span style="font-size:0.6em;">per person</span></div>
+                                    <div style="font-size:0.9em; color:var(--fury-light); margin-bottom:1rem; font-style:italic;">Save 48% per ticket</div>
+                                    <ul style="text-align:left; color:var(--fury-light); line-height:2;">
+                                        <li>✓ All Standard benefits</li>
+                                        <li>✓ Group coordinator badge</li>
+                                        <li>✓ Dedicated support</li>
+                                        <li>✓ Additional discount for the hotel rooms reservation</li>
+                                    </ul>
+                                % else:
+                                    <h3 style="color:var(--fury-primary); font-size:1.5em;">Grupa (5+)</h3>
+                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">99 zł<span style="font-size:0.6em;">za osobę</span></div>
+                                    <div style="font-size:0.9em; color:var(--fury-light); margin-bottom:1rem; font-style:italic;">Zaoszczędź 48% za bilet</div>
+                                    <ul style="text-align:left; color:var(--fury-light); line-height:2;">
+                                        <li>✓ Wszystkie benefity Standard</li>
+                                        <li>✓ Emblemat koordynatora grupy</li>
+                                        <li>✓ Dedykowana pomoc</li>
+                                        <li>✓ Rabat przy rezerwacji pokoi hotelowych</li>
+                                    </ul>
+                                % endif
+                            </div>
+                        </div>
+                        <div style="margin-top:2rem;">
+                            % if lang == 'en':
+                                <a href="#" class="btn btn-primary btn-lg buy-ticket-btn" style="margin:0 0.5rem;">Get Your Ticket Now</a>
+                            % else:
+                                <a href="#" class="btn btn-primary btn-lg buy-ticket-btn" style="margin:0 0.5rem;">Zarezerwuj miejsce teraz</a>
+                            % endif
+                        </div>
+                    </section>
+
                     <!-- Agenda Section -->
                     <section class="agenda-section" style="margin: 3rem 0;">
                         % if lang == 'en':
@@ -173,18 +328,25 @@ ${template_hooks['extra_head']()}
                         </div>
                     </section>
 
-                    <!-- Sponsors Section -->
+                    <!-- Sponsors Section with Descriptions -->
                     <section class="sponsors-section" style="margin: 3rem 0; text-align: center;">
                         % if lang == 'en':
-                            <h2>Sponsors</h2>
+                            <h2>Our Sponsors</h2>
+                            <p style="color: var(--fury-light); margin-bottom: 2rem;">Companies backing innovation in DevOps & cloud technology</p>
                         % else:
-                            <h2>Sponsorzy</h2>
+                            <h2>Nasi Sponsorzy</h2>
+                            <p style="color: var(--fury-light); margin-bottom: 2rem;">Firmy wspierające innowacje w DevOps i technologii cloud</p>
                         % endif
                         <div class="sponsors-list" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-top: 2rem;">
-                            <div class="sponsor-card" style="background: var(--fury-dark); border-radius: 8px; padding: 1.5rem; width: 200px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center;">
+                            <div class="sponsor-card" style="background: var(--fury-dark); border-radius: 8px; padding: 1.5rem; width: 250px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
                                 <a href="https://devopsfury.com">
-                                <img src="/images/devopsfury.png" alt="DevOpsFury" style="max-width: 200px; max-height: 180px; width: 100%; height: auto;">
+                                <img src="/images/devopsfury.png" alt="DevOpsFury" style="max-width: 200px; max-height: 120px; width: 100%; height: auto; margin-bottom: 1rem;">
                                 </a>
+                                % if lang == 'en':
+                                    <p style="color: var(--fury-light); font-size: 0.95em;">Platinum Sponsor. DevOps consulting & training for enterprises.</p>
+                                % else:
+                                    <p style="color: var(--fury-light); font-size: 0.95em;">Sponsor Platynowy. Konsulting i szkolenia DevOps dla przedsiębiorstw.</p>
+                                % endif
                             </div>
                         </div>
                     </section>
@@ -276,6 +438,32 @@ ${template_hooks['extra_head']()}
 <script type="text/javascript" src="https://app.evenea.pl/js/iframe/new/iframeResizer2.js"></script>
         </div>
     </div>
+    <!-- Countdown Timer Script -->
+    <script>
+    // Countdown to early bird deadline (January 15, 2026)
+    function updateCountdown() {
+        var earlyBirdDate = new Date('2026-01-15T00:00:00').getTime();
+        var now = new Date().getTime();
+        var distance = earlyBirdDate - now;
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        var countdownEl = document.getElementById('countdown');
+        if (countdownEl) {
+            if (distance > 0) {
+                countdownEl.textContent = days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's';
+            } else {
+                countdownEl.textContent = 'Offer expired';
+            }
+        }
+    }
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+    </script>
+
     <!-- Interactivity: FAQ accordion, smooth scroll, modal -->
     <script>
     // FAQ accordion
