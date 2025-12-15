@@ -194,7 +194,7 @@ ${template_hooks['extra_head']()}
                             <div style="background:var(--fury-dark); border:2px solid var(--fury-accent); border-radius:10px; padding:2rem; width:250px; box-shadow:0 4px 12px rgba(0,0,0,0.3);">
                                 % if lang == 'en':
                                     <h3 style="color:var(--fury-primary); font-size:1.5em;">Standard</h3>
-                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">129 zł<span style="font-size:0.6em;">early bird</span></div>
+                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">129 zł<p style="font-size:0.6em;">early bird</p></div>
                                     <div style="font-size:1.2em; color:var(--fury-light); margin-bottom:1rem; text-decoration:line-through; opacity:0.6;">189 zł</div>
                                     <ul style="text-align:left; color:var(--fury-light); line-height:2;">
                                         <li>✓ Full day access</li>
@@ -203,7 +203,7 @@ ${template_hooks['extra_head']()}
                                     </ul>
                                 % else:
                                     <h3 style="color:var(--fury-primary); font-size:1.5em;">Standard</h3>
-                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">129 zł<span style="font-size:0.6em;">early bird</span></div>
+                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">129 zł<p style="font-size:0.6em;">early bird</p></div>
                                     <div style="font-size:1.2em; color:var(--fury-light); margin-bottom:1rem; text-decoration:line-through; opacity:0.6;">189 zł</div>
                                     <ul style="text-align:left; color:var(--fury-light); line-height:2;">
                                         <li>✓ Dostęp całego dnia</li>
@@ -222,7 +222,7 @@ ${template_hooks['extra_head']()}
                                 % endif
                                 % if lang == 'en':
                                     <h3 style="color:var(--fury-primary); font-size:1.5em; margin-top:1rem;">Premium</h3>
-                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">229 zł<span style="font-size:0.6em;">early bird</span></div>
+                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">229 zł<p style="font-size:0.6em;">early bird</p></div>
                                     <div style="font-size:1.2em; color:var(--fury-light); margin-bottom:1rem; text-decoration:line-through; opacity:0.6;">329 zł</div>
                                     <ul style="text-align:left; color:var(--fury-light); line-height:2;">
                                         <li>✓ All Standard benefits</li>
@@ -231,7 +231,7 @@ ${template_hooks['extra_head']()}
                                     </ul>
                                 % else:
                                     <h3 style="color:var(--fury-primary); font-size:1.5em; margin-top:1rem;">Premium</h3>
-                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">229 zł<span style="font-size:0.6em;">early bird</span></div>
+                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">229 zł<p style="font-size:0.6em;">early bird</p></div>
                                     <div style="font-size:1.2em; color:var(--fury-light); margin-bottom:1rem; text-decoration:line-through; opacity:0.6;">329 zł</div>
                                     <ul style="text-align:left; color:var(--fury-light); line-height:2;">
                                         <li>✓ Wszystkie benefity Standard</li>
@@ -245,7 +245,7 @@ ${template_hooks['extra_head']()}
                             <div style="background:var(--fury-dark); border:2px solid var(--fury-accent); border-radius:10px; padding:2rem; width:250px; box-shadow:0 4px 12px rgba(0,0,0,0.3);">
                                 % if lang == 'en':
                                     <h3 style="color:var(--fury-primary); font-size:1.5em;">Group (5+)</h3>
-                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">99 zł<span style="font-size:0.6em;">per person</span></div>
+                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">99 zł<p style="font-size:0.6em;">per person</p></div>
                                     <div style="font-size:0.9em; color:var(--fury-light); margin-bottom:1rem; font-style:italic;">Save 48% per ticket</div>
                                     <ul style="text-align:left; color:var(--fury-light); line-height:2;">
                                         <li>✓ All Standard benefits</li>
@@ -255,7 +255,7 @@ ${template_hooks['extra_head']()}
                                     </ul>
                                 % else:
                                     <h3 style="color:var(--fury-primary); font-size:1.5em;">Grupa (5+)</h3>
-                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">99 zł<span style="font-size:0.6em;">za osobę</span></div>
+                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">99 zł<p style="font-size:0.6em;">za osobę</p></div>
                                     <div style="font-size:0.9em; color:var(--fury-light); margin-bottom:1rem; font-style:italic;">Zaoszczędź 48% za bilet</div>
                                     <ul style="text-align:left; color:var(--fury-light); line-height:2;">
                                         <li>✓ Wszystkie benefity Standard</li>
@@ -1029,38 +1029,20 @@ ${template_hooks['extra_head']()}
           <div class="ml-form-embedBody ml-form-embedBodyHorizontal row-form">
 
             <div class="ml-form-embedContent" style=" ">
-
                 <h4>TechFury Newsletter</h4>
-
                   <p>Signup for news and special offers!</p>
-
-
             </div>
-
             <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/1979474/forms/173598003375900305/subscribe" data-code="" method="post" target="_blank">
-
-
               <div class="ml-form-formContent horozintalForm">
                 <div class="ml-form-horizontalRow">
                   <div class="ml-input-horizontal">
-
-
                       <div style="width: 100%;" class="horizontal-fields">
-
-
-
-
-
-
                         <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
 
                           <!-- input -->
                       <input type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email">
                       <!-- /input -->
                         </div>
-
-
-
                       </div>
 
                   </div>
@@ -1077,27 +1059,10 @@ ${template_hooks['extra_head']()}
                   </div>
                 </div>
               </div>
-
               <!-- Privacy policy -->
 
               <!-- /Privacy policy -->
-
-
-
-
-
-
-
-
-
-
-
-
-
               <input type="hidden" name="ml-submit" value="1">
-
-
-
               <div class="ml-mobileButton-horizontal">
                 <button type="submit" class="primary">Subscribe</button>
                 <button disabled="disabled" style="display: none;" type="button" class="loading">
@@ -1108,27 +1073,15 @@ ${template_hooks['extra_head']()}
               <input type="hidden" name="anticsrf" value="true">
             </form>
           </div>
-
           <div class="ml-form-successBody row-success" style="display: none">
-
             <div class="ml-form-successContent">
-
                 <h4>Thank you!</h4>
-
                   <p>You have successfully joined our subscriber list.</p>
-
-
             </div>
-
           </div>
         </div>
       </div>
     </div>
-
-
-
-
-
   <script>
     function ml_webform_success_34565205() {
       var $ = ml_jQuery || jQuery;
