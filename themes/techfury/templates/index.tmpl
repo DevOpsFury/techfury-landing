@@ -66,7 +66,7 @@ ${template_hooks['extra_head']()}
                                     <p style="font-size:1.1em; color:var(--fury-light); margin:1rem 0;">One unforgettable day of high-impact talks, hands-on sessions, and powerful networking. Join 200+ professionals shaping the future of cloud & AI.</p>
                                     <div class="conference-dates" style="font-size:1.1em; margin:1.5rem 0;">📍 April 24, 2026 • Szczecin, Poland</div>
                                     <div style="margin:1.5rem 0;">
-                                        <span style="background:var(--fury-accent); color:#fff; padding:0.5rem 1rem; border-radius:5px; font-weight:bold; display:inline-block; margin:0.5rem;">🎟️ Early Bird: 30% OFF</span>
+                                        <span style="background:var(--fury-accent); color:#fff; padding:0.5rem 1rem; border-radius:5px; font-weight:bold; display:inline-block; margin:0.5rem;">🎟️ Standard Prices</span>
                                         <span style="background:#FF6B6B; color:#fff; padding:0.5rem 1rem; border-radius:5px; font-weight:bold; display:inline-block; margin:0.5rem;" id="urgency-badge">Only 36 seats left</span>
                                     </div>
                                     <a href="#pricing" class="btn btn-primary btn-lg buy-ticket-btn" style="margin-top:1.5rem;">Secure Your Spot</a>
@@ -75,7 +75,7 @@ ${template_hooks['extra_head']()}
                                     <p style="font-size:1.1em; color:var(--fury-light); margin:1rem 0;">Jeden niezapomniany dzień pełen angażujących prezentacji, warsztatów i networkingu. Dołącz do 200+ profesjonalistów kształtujących przyszłość chmury i AI.</p>
                                     <div class="conference-dates" style="font-size:1.1em; margin:1.5rem 0;">📍 24 kwietnia 2026 • Szczecin, Polska</div>
                                     <div style="margin:1.5rem 0;">
-                                        <span style="background:var(--fury-accent); color:#fff; padding:0.5rem 1rem; border-radius:5px; font-weight:bold; display:inline-block; margin:0.5rem;">🎟️ Early Bird: 30% taniej</span>
+                                        <span style="background:var(--fury-accent); color:#fff; padding:0.5rem 1rem; border-radius:5px; font-weight:bold; display:inline-block; margin:0.5rem;">🎟️ Standardowe Ceny</span>
                                         <span style="background:#FF6B6B; color:#fff; padding:0.5rem 1rem; border-radius:5px; font-weight:bold; display:inline-block; margin:0.5rem;" id="urgency-badge">Pozostało 36 miejsc</span>
                                     </div>
                                     <a href="#pricing" class="btn btn-primary btn-lg buy-ticket-btn" style="margin-top:1.5rem;">Zarezerwuj miejsce</a>
@@ -87,9 +87,9 @@ ${template_hooks['extra_head']()}
                     <!-- Countdown Timer -->
                     <section style="margin:2rem 0; text-align:center; background:rgba(114,9,183,0.1); padding:2rem; border-radius:8px;">
                         % if lang == 'en':
-                            <h3 style="color:var(--fury-accent);">Early Bird Offer Ends In:</h3>
+                            <h3 style="color:var(--fury-accent);">Conference Starts In:</h3>
                         % else:
-                            <h3 style="color:var(--fury-accent);">Oferta Early Bird kończy się za:</h3>
+                            <h3 style="color:var(--fury-accent);">Konferencja zaczyna się za:</h3>
                         % endif
                         <div style="font-size:2em; font-weight:bold; color:var(--fury-primary); letter-spacing:2px;" id="countdown">45 days</div>
                     </section>
@@ -194,8 +194,7 @@ ${template_hooks['extra_head']()}
                             <div style="background:var(--fury-dark); border:2px solid var(--fury-accent); border-radius:10px; padding:2rem; width:250px; box-shadow:0 4px 12px rgba(0,0,0,0.3);">
                                 % if lang == 'en':
                                     <h3 style="color:var(--fury-primary); font-size:1.5em;">Standard</h3>
-                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">129 zł<p style="font-size:0.6em;">early bird</p></div>
-                                    <div style="font-size:1.2em; color:var(--fury-light); margin-bottom:1rem; text-decoration:line-through; opacity:0.6;">189 zł</div>
+                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">189 zł</div>
                                     <ul style="text-align:left; color:var(--fury-light); line-height:2;">
                                         <li>✓ Full day access</li>
                                         <li>✓ Lunch & coffee</li>
@@ -203,8 +202,7 @@ ${template_hooks['extra_head']()}
                                     </ul>
                                 % else:
                                     <h3 style="color:var(--fury-primary); font-size:1.5em;">Standard</h3>
-                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">129 zł<p style="font-size:0.6em;">early bird</p></div>
-                                    <div style="font-size:1.2em; color:var(--fury-light); margin-bottom:1rem; text-decoration:line-through; opacity:0.6;">189 zł</div>
+                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">189 zł</div>
                                     <ul style="text-align:left; color:var(--fury-light); line-height:2;">
                                         <li>✓ Dostęp całego dnia</li>
                                         <li>✓ Obiad i kawa</li>
@@ -222,8 +220,7 @@ ${template_hooks['extra_head']()}
                                 % endif
                                 % if lang == 'en':
                                     <h3 style="color:var(--fury-primary); font-size:1.5em; margin-top:1rem;">Premium</h3>
-                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">229 zł<p style="font-size:0.6em;">early bird</p></div>
-                                    <div style="font-size:1.2em; color:var(--fury-light); margin-bottom:1rem; text-decoration:line-through; opacity:0.6;">329 zł</div>
+                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">330 zł</div>
                                     <ul style="text-align:left; color:var(--fury-light); line-height:2;">
                                         <li>✓ All Standard benefits</li>
                                         <li>✓ VIP speaker dinner</li>
@@ -231,8 +228,7 @@ ${template_hooks['extra_head']()}
                                     </ul>
                                 % else:
                                     <h3 style="color:var(--fury-primary); font-size:1.5em; margin-top:1rem;">Premium</h3>
-                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">229 zł<p style="font-size:0.6em;">early bird</p></div>
-                                    <div style="font-size:1.2em; color:var(--fury-light); margin-bottom:1rem; text-decoration:line-through; opacity:0.6;">329 zł</div>
+                                    <div style="font-size:2.5em; color:var(--fury-accent); font-weight:bold; margin:1rem 0;">330 zł</div>
                                     <ul style="text-align:left; color:var(--fury-light); line-height:2;">
                                         <li>✓ Wszystkie benefity Standard</li>
                                         <li>✓ Kolacja z prelegentami VIP</li>
@@ -1210,11 +1206,11 @@ ${template_hooks['extra_head']()}
     </div>
     <!-- Countdown Timer Script -->
     <script>
-    // Countdown to early bird deadline (January 15, 2026)
+    // Countdown to conference start (April 24, 2026 at 10:00 AM)
     function updateCountdown() {
-        var earlyBirdDate = new Date('2026-01-31T00:00:00').getTime();
+        var conferenceDate = new Date('2026-04-24T10:00:00').getTime();
         var now = new Date().getTime();
-        var distance = earlyBirdDate - now;
+        var distance = conferenceDate - now;
 
         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -1226,7 +1222,7 @@ ${template_hooks['extra_head']()}
             if (distance > 0) {
                 countdownEl.textContent = days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's';
             } else {
-                countdownEl.textContent = 'Offer expired';
+                countdownEl.textContent = 'Conference has started';
             }
         }
     }
