@@ -1,6 +1,6 @@
 <!--
-.. title: Tytuł wystąpienia wkrótce
-.. slug: piotr-ogrodnicki-talk
+.. title: Useme: Jak nie zepsuć sukcesu? Droga od startupu do dojrzałej organizacji IT
+.. slug: piotr-ogrodnicki-useme
 .. date: 2026-02-11 12:00:00 UTC+01:00
 .. tags: backend, fintech, architektura, rozwój produktu, inżynieria
 .. category: talks
@@ -17,7 +17,7 @@ Specjalizuje się w projektowaniu skalowalnych rozwiązań backendowych i optyma
 
 ## Abstrakt prezentacji
 
-[Abstrakt zostanie wkrótce ogłoszony]
+Skalowanie to nie tylko większe serwery, to przede wszystkim test dla architektury, procesów i ludzi. Na przykładzie Useme opowiem o ewolucji od zwinnego startupu do dojrzałej organizacji IT, która musiała dojrzeć, by przetrwać własny sukces. Dowiesz się, jak zarządzać długiem technicznym i budować strukturę, nie tracąc przy tym startupowej energii – prosto z frontu, bez marketingowego lukru.
 
 ---
 

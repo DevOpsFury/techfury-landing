@@ -18,7 +18,7 @@
 | 12:00 - 12:45 | The kind of phishing that developers likely click | Tomasz Szmidt | Angielski |
 | 13:00 - 13:45 | The GCP 'Read-Only' Risk: Bypassing Disk Encryption in the VibeOps Era | Alex Neviarouskaya | Angielski |
 | 13:45 - 14:30 | Przerwa obiadowa | | |
-| 14:30 - 15:15 | Tytuł wystąpienia wkrótce | Piotr Ogrodnicki | Polski |
+| 14:30 - 15:15 | Useme: Jak nie zepsuć sukcesu? Droga od startupu do dojrzałej organizacji IT | Piotr Ogrodnicki | Polski |
 | 15:30 - 16:15 | Zarządzanie Cyber Risk-ami oparte na sztucznej inteligencji vs NIS2: pomiar, zarządzanie i osiągnięcie zgodności regulacyjnej | Rafał Malujda | Polski |
 | 16:30 - 17:15 | Od danych do decyzji: wykorzystanie AI w prognozowaniu powodzi | Tomasz Fidecki | Polski |
 | 17:15 - 18:00 | Flash talks i dyskusje w kuluarach | | |
