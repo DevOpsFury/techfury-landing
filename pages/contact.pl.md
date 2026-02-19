@@ -68,7 +68,7 @@ Masz pytania dotyczące TechFury 2026? Jesteśmy do Twojej dyspozycji!
                 <p>Dla zapytań medialnych i akredytacji prasowych:</p>
                 <ul>
                     <li>Email: media@techfury.pl</li>
-                    <li>Press Kit: [Pobierz](#)</li>
+                    <li>Press Kit: <a href="https://drive.google.com/drive/folders/1i-zEk849al0v_9jo-A_gNAOX5pa_4HYQ">Google Drive</a></li>
                 </ul>
             </div>
         </div>
