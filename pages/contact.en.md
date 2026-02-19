@@ -97,8 +97,8 @@ Do you have questions about TechFury 2026? We are here to help!
         <p>Stay updated with the latest news about TechFury:</p>
         <ul>
             <li><a href="https://www.facebook.com/profile.php?id=61582610543557">Facebook</a></li>
-            <li><a href="#">LinkedIn</a></li>
-            <li><a href="#">YouTube</a></li>
+            <li><a href="https://www.linkedin.com/events/7394741348303704064">LinkedIn</a></li>
+            <li><a href="https://www.youtube.com/@devopsfury">YouTube</a></li>
         </ul>
     </div>
 </div>

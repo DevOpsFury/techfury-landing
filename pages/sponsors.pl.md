@@ -41,9 +41,21 @@ TechFury to wyjątkowa konferencja technologiczna, która gromadzi pasjonatów i
 - Małe logo na materiałach konferencyjnych
 - Możliwość dołączenia materiałów do pakietów konferencyjnych
 
+## Obecni sponsorzy
+
+### Sponsor Platynowy
+
+<a href="https://devopsfury.com/"><img src="/images/devopsfury.png" alt="Logo DevOpsFury" style="max-width: 200px; max-height: 120px; width: 100%; height: auto;"></a>
+
+---
+
+### Sponsor Srebrny
+
+<a href="https://www.linkedin.com/company/becomedevops/"><img src="/images/becomedevops.png" alt="Logo BecomeDevops" style="max-width: 220px; max-height: 120px; width: 100%; height: auto;"></a>
+
 ## Kontakt
 
 Jeśli jesteś zainteresowany zostaniem sponsorem TechFury, skontaktuj się z nami:
 
 Email: sponsors@techfury.pl
-Tel: +48
+Tel: +48 510 891 465
