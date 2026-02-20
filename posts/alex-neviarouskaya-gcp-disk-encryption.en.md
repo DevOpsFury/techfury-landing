@@ -13,7 +13,7 @@
 
 **Alex Neviarouskaya** is an Engineering Manager at NALA, an expert in building secure systems and managing technical teams. She has shaped her career path at global technology companies, including Orca Security, where as Senior Software Engineering Manager she was responsible for key software development processes in cybersecurity.
 
-A system security engineer by training, her work combines deep technical knowledge (including Go and Java technologies) with a modern approach to leadership. She specializes in scaling engineering teams and implementing processes that combine development efficiency with rigorous security standards. At the intersection of DevOps and management, she emphasizes automation and security as the foundations of a stable product.
+A system security engineer by training, her work combines deep technical knowledge (including Go and Python technologies) with a modern approach to leadership. She specializes in scaling engineering teams and implementing processes that combine development efficiency with rigorous security standards. At the intersection of DevOps and management, she emphasizes automation and security as the foundations of a stable product.
 
 ## Talk Abstract
 
