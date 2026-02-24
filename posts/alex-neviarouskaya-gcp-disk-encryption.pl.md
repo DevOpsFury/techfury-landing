@@ -17,7 +17,13 @@ Z wykształcenia inżynier bezpieczeństwa systemów informatycznych, w swojej p
 
 ## Abstrakt prezentacji
 
-[Abstrakt zostanie wkrótce ogłoszony]
+Rozwój przepływów pracy wspomaganych przez sztuczną inteligencją doprowadził do niebezpiecznego nadmiernego polegania na podstawowych rolach i zasadach „tylko do odczytu” w GCP (Google Cloud Platform). Podczas tej sesji zdekonstruujemy iluzję „tylko do odczytu”, badając niedawno ujawnioną lukę w zabezpieczeniach Google VRP.
+
+Omówimy, w jaki sposób uprawnienie compute.disks.useReadOnly umożliwiło atakującym wykradanie dysków z kluczami szyfrowania zarządzanymi przez klienta (CMEK) między projektami. Wykorzystując agenta usługi Compute Engine podczas procesu klonowania, niestandardowe szyfrowanie zostało dyskretnie obniżone do poziomu kluczy zarządzanych przez Google (GME) w środowisku kontrolowanym przez atakującego – całkowicie omijając ograniczenia KMS.
+
+Omówimy architekturę tego exploita, przeanalizujemy rozwiązanie Google i ujawnimy nowo odkryte obejście, które utrzymuje to zagrożenie. Uczestnicy wyjdą z praktycznej wiedzy na temat technik audytu IAM i konkretnych ograniczeń polityki organizacji, aby zapobiec wyciekowi danych poza swoje środowisko.
+
+Więcej na temat tego zagadnienia [na blogu Alex](https://aneviaro.eu/posts/the-hidden-risk-of-gcp-viewer-role-cross-project-disk-replication/)
 
 ---
 

@@ -17,7 +17,13 @@ A system security engineer by training, her work combines deep technical knowled
 
 ## Talk Abstract
 
-[Abstract to be announced]
+The rise of AI-assisted workflows has created a dangerous over-reliance on GCP (Google Cloud Platform) basic read-only roles and policies. In this session, we will deconstruct the "Read-Only" illusion by exploring a recently rewarded Google VRP vulnerability.
+
+We will break down how the compute.disks.useReadOnly permission allowed attackers to exfiltrate Customer-Managed Encryption Key (CMEK) disks across projects. By exploiting the Compute Engine Service Agent during the cloning process, custom encryption was silently downgraded to Google-Managed keys (GME) in an attacker-controlled environment—completely bypassing KMS restrictions.
+
+We will go over the architecture of this exploit, examine Google's solution, and reveal a newly discovered workaround that keeps this threat alive. Attendees will leave with a practical understanding of IAM auditing techniques and specific Organization Policy constraints to prevent data leakage outside of their environment.
+
+More about the topic [on Alex`s blog](https://aneviaro.eu/posts/the-hidden-risk-of-gcp-viewer-role-cross-project-disk-replication/)
 
 ---
 
