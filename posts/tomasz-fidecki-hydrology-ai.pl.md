@@ -11,9 +11,13 @@
 
 ## O prelegencie
 
-**Tomasz Fidecki** jest CTO i współzałożyciel firmy u11d, ekspert w dziedzinie architektury systemowej oraz automatyzacji procesów DevOps. Od lat specjalizuje się w budowaniu skalowalnych rozwiązań cloud-native oraz wdrażaniu nowoczesnych praktyk Infrastructure as Code (IaC) przy użyciu m.in. Terraform i AWS.
+**Tomasz Fidecki** jest CTO i współzałożycielem firmy u11d. Specjalizuje się w łączeniu infrastruktury, danych i AI w spójne systemy wspierające podejmowanie decyzji i skalowanie biznesu.
 
-Jako praktyk i lider technologiczny, koncentruje się na tworzeniu stabilnych rurociągów Continuous Integration, które stanowią fundament dla dużych systemów e-commerce i aplikacji chmurowych. Tomasz jest znany z analitycznego podejścia do rozwiązywania złożonych problemów infrastrukturalnych oraz dzielenia się wiedzą na blogach technologicznych (m.in. u11d tech blog, DEV Community). Na co dzień łączy strategiczne zarządzanie technologią z pasją do optymalizacji wydajności i niezawodności systemów IT.
+Wspiera firmy w budowie niezawodnej infrastruktury, tworzeniu wydajnych pipeline’ów danych oraz wdrażaniu nowoczesnych praktyk DevOps i Data Engineering. Jego doświadczenie obejmuje architektury cloud-native, Infrastructure as Code, orkiestrację procesów danych oraz integrację modeli ML w środowiskach produkcyjnych.
+
+Jako praktyk i lider technologiczny koncentruje się na upraszczaniu złożonych systemów oraz przekształcaniu ich w stabilne, skalowalne i efektywne kosztowo rozwiązania. Łączy strategiczne podejście do technologii z praktycznym wdrażaniem systemów, które działają niezawodnie w rzeczywistych warunkach.
+
+Regularnie dzieli się wiedzą na blogach technologicznych (u11d tech blog, DEV Community), koncentrując się na realnych wyzwaniach związanych z infrastrukturą, danymi i skalowaniem systemów.
 
 ## Abstrakt prezentacji
 

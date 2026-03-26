@@ -11,9 +11,13 @@
 
 ## Speaker Bio
 
-**Tomasz Szmidt** is a Data Science Manager at WithSecure. He builds his career at the intersection of two dynamic worlds: advanced data analysis and cybersecurity. As a "data scientist who became a manager in cyber", he specializes in using machine learning algorithms to detect and neutralize modern digital threats.
+**Tomasz Szmidt** is the CTO and co-founder of u11d. He specializes in combining infrastructure, data, and AI into cohesive systems that support decision-making and business growth.
 
-During his presentations (including at Infoshare), he enjoys demystifying the topic of phishing, showing what hooks even the most aware programmers most often fall for. In his work, he combines an analytical approach to data with practical building of organizational resilience to social engineering attacks.
+He works with companies to build reliable infrastructure, develop efficient data pipelines, and implement modern DevOps and data engineering practices. His experience includes cloud-native architectures, Infrastructure as Code, data orchestration, and integrating machine learning into production systems.
+
+As a hands-on technical leader, he focuses on simplifying complex architectures and turning them into stable, scalable, and cost-efficient platforms. He combines strategic technology leadership with practical execution, ensuring systems perform reliably under real-world conditions.
+
+He regularly shares insights on infrastructure, data, and system scalability through technical blogs, including the u11d tech blog and DEV Community.
 
 ## Talk Abstract
 
