@@ -13,6 +13,8 @@
 
 **Piotr Ogrodnicki** is a Senior Backend Engineer, Product Owner, and advisor at Useme. An expert with many years of experience in building and scaling system architectures for the fintech and marketplace sectors. At Useme, he plays a unique role, combining the world of clean code with product vision – as an engineer and Product Owner, he ensures that technology not only works but actually solves business problems.
 
+LinkedIn: [Piotr Ogrodnicki](https://www.linkedin.com/in/piotr-ogrodnicki/)
+
 He specializes in designing scalable backend solutions and optimizing development processes in rapidly growing organizations. When not working on system architecture, he can be found on board the STS Fryderyk Chopin, where as an officer he translates the principles of efficient command from the sea to software engineering. At conferences, he enjoys sharing a practical approach to building products that withstand the test of time and scale.
 
 ## Talk Abstract

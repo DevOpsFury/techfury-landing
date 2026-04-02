@@ -13,6 +13,8 @@
 
 **Tomasz Szmidt** is the CTO and co-founder of u11d. He specializes in combining infrastructure, data, and AI into cohesive systems that support decision-making and business growth.
 
+LinkedIn: [Tomasz Szmidt](https://www.linkedin.com/in/tomaszszmidt/)
+
 He works with companies to build reliable infrastructure, develop efficient data pipelines, and implement modern DevOps and data engineering practices. His experience includes cloud-native architectures, Infrastructure as Code, data orchestration, and integrating machine learning into production systems.
 
 As a hands-on technical leader, he focuses on simplifying complex architectures and turning them into stable, scalable, and cost-efficient platforms. He combines strategic technology leadership with practical execution, ensuring systems perform reliably under real-world conditions.

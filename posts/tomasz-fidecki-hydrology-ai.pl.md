@@ -13,6 +13,8 @@
 
 **Tomasz Fidecki** jest CTO i współzałożycielem firmy u11d. Specjalizuje się w łączeniu infrastruktury, danych i AI w spójne systemy wspierające podejmowanie decyzji i skalowanie biznesu.
 
+LinkedIn: [Tomasz Fidecki](https://www.linkedin.com/in/tomasz-fidecki-22b68340/)
+
 Wspiera firmy w budowie niezawodnej infrastruktury, tworzeniu wydajnych pipeline’ów danych oraz wdrażaniu nowoczesnych praktyk DevOps i Data Engineering. Jego doświadczenie obejmuje architektury cloud-native, Infrastructure as Code, orkiestrację procesów danych oraz integrację modeli ML w środowiskach produkcyjnych.
 
 Jako praktyk i lider technologiczny koncentruje się na upraszczaniu złożonych systemów oraz przekształcaniu ich w stabilne, skalowalne i efektywne kosztowo rozwiązania. Łączy strategiczne podejście do technologii z praktycznym wdrażaniem systemów, które działają niezawodnie w rzeczywistych warunkach.

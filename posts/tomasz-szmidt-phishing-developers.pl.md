@@ -13,6 +13,8 @@
 
 **Tomasz Szmidt** jest Data Science Managerem w WithSecure. Swoją drogę zawodową buduje na styku dwóch dynamicznych światów: zaawansowanej analizy danych i cyberbezpieczeństwa. Jako „data scientist, który został managerem w cyber", specjalizuje się w wykorzystaniu algorytmów uczenia maszynowego do wykrywania i neutralizacji współczesnych zagrożeń cyfrowych.
 
+LinkedIn: [Tomasz Szmidt](https://www.linkedin.com/in/tomaszszmidt/)
+
 Podczas swoich wystąpień (m.in. na Infoshare) chętnie demitologizuje temat phishingu, pokazując, na jakie haczyki najczęściej dają się złapać nawet najbardziej świadomi programiści. W swojej pracy łączy analityczne podejście do danych z praktycznym budowaniem odporności organizacji na ataki socjotechniczne.
 
 ## Abstrakt prezentacji

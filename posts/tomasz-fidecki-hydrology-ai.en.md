@@ -13,6 +13,8 @@
 
 **Tomasz Fidecki** is CTO and co-founder of u11d, an expert in systems architecture and DevOps process automation. For years, he has specialized in building scalable cloud-native solutions and implementing modern Infrastructure as Code (IaC) practices using Terraform and AWS, among others.
 
+LinkedIn: [Tomasz Fidecki](https://www.linkedin.com/in/tomasz-fidecki-22b68340/)
+
 As a practitioner and technical leader, he focuses on creating stable Continuous Integration pipelines, which form the foundation for large e-commerce systems and cloud applications. Tomasz is known for his analytical approach to solving complex infrastructure problems and sharing knowledge on technical blogs (including u11d tech blog and DEV Community). On a daily basis, he combines strategic technology management with a passion for optimizing IT system performance and reliability.
 
 ## Talk Abstract

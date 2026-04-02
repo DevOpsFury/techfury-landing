@@ -14,7 +14,7 @@
 | Time           | Topic                                 | Speaker | Language |
 |----------------|---------------------------------------|---------|----------|
 | 10:00 - 11:00  | Registration and coffee               |         | |
-| 11:00 - 11:45  | *Keynote:* DevOps in the Age of AI    | TBA     | Polish |
+| 11:00 - 11:45  | [DevOps in the AI World](/en/grzegorz-adamowicz-devops-ai/) | [Grzegorz Adamowicz](/en/grzegorz-adamowicz-devops-ai/) | Polish |
 | 12:00 - 12:45  | [The kind of phishing that developers likely click](/en/tomasz-szmidt-phishing-developers/) | [Tomasz Szmidt](/en/tomasz-szmidt-phishing-developers/) | English |
 | 13:00 - 13:45  | [The GCP 'Read-Only' Risk: Bypassing Disk Encryption in the VibeOps Era](/en/alex-neviarouskaya-gcp-disk-encryption/) | [Alex Neviarouskaya](/en/alex-neviarouskaya-gcp-disk-encryption/) | English |
 | 13:45 - 14:30  | Lunch break                          |         | |

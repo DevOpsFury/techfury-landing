@@ -13,6 +13,8 @@
 
 **Piotr Ogrodnicki** jest Senior Backend Engineerem, Product Ownerem oraz doradcą w Useme. Ekspert z wieloletnim doświadczeniem w budowaniu i skalowaniu architektury systemów dla sektora fintech i marketplace. W Useme pełni unikalną rolę, łącząc świat czystego kodu z wizją produktową – jako inżynier i Product Owner dba o to, by technologia nie tylko działała, ale realnie rozwiązywała problemy biznesowe.
 
+LinkedIn: [Piotr Ogrodnicki](https://www.linkedin.com/in/piotr-ogrodnicki/)
+
 Specjalizuje się w projektowaniu skalowalnych rozwiązań backendowych i optymalizacji procesów rozwojowych w dynamicznie rosnących organizacjach. Gdy nie zajmuje się architekturą systemową, można go spotkać na pokładzie STS Fryderyk Chopin, gdzie jako oficer przekłada zasady sprawnego dowodzenia z morza na grunt inżynierii oprogramowania. Na konferencjach chętnie dzieli się praktycznym podejściem do budowania produktów, które wytrzymują próbę czasu i skali.
 
 ## Abstrakt prezentacji
