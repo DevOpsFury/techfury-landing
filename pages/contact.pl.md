@@ -79,13 +79,12 @@ Masz pytania dotyczące TechFury 2026? Jesteśmy do Twojej dyspozycji!
 
 <div class="card mb-4">
     <div class="card-body">
-        <h3>Ogłosimy wkrótce</h3>
+        <h3><a href="https://maps.app.goo.gl/iZSJkKw9eAnVscYu7">Hanza Tower</a>, al Wyzwolenia 46, Szczecin</h3>
         <p><br></p>
         <p><strong>Jak dotrzeć:</strong></p>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Ze stacji PKP dojazd tramwajem numer 3 w kierunku Osiedle Zawadzkiego, 6 przystanków, wysiadamy na przystanku Plac Witosa</li>
+            <li>Tramwaje linii 2, 3, 4, 10 i 11 - przystanek Plac Witosa</li>
         </ul>
     </div>
 </div>

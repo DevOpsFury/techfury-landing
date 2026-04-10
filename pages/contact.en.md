@@ -79,13 +79,12 @@ Do you have questions about TechFury 2026? We are here to help!
 
 <div class="card mb-4">
     <div class="card-body">
-        <h3>We will let you know soon!</h3>
+<h3><a href="https://maps.app.goo.gl/iZSJkKw9eAnVscYu7">Hanza Tower</a>, al Wyzwolenia 46, Szczecin</h3>
         <p><br></p>
-        <p><strong>Getting there:</strong></p>
+        <p><strong>How to get there:</strong></p>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>From the train station Szczegin Główny, take a tram number 3 towards Osiedle Zawadzkiego, you're 6 stops away (10 minutes), exit the tram on Plac Witosa</li>
+            <li>Trams with numbers 2, 3, 4, 10 and 11 - Plac Witosa</li>
         </ul>
     </div>
 </div>
